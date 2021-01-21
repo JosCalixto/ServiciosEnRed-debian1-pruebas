@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installsystemd/12
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'colord.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/12
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/org.freedesktop.colord-sane.conf 1.0.3-1\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/colormgr-completion.bash 1.0.3-1\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/org.freedesktop.ColorManager.conf 1.4.3-4\~ -- "$@"
+# End automatically added section

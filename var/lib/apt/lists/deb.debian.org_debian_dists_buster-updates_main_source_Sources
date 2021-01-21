@@ -1,0 +1,208 @@
+Package: ca-certificates
+Binary: ca-certificates, ca-certificates-udeb
+Version: 20200601~deb10u1
+Maintainer: Michael Shuler <michael@pbandjelly.org>
+Uploaders: Raphael Geissert <geissert@debian.org>, Thijs Kinkhorst <thijs@debian.org>
+Build-Depends: debhelper-compat (= 12), po-debconf
+Build-Depends-Indep: python, openssl
+Architecture: all
+Standards-Version: 4.3.0.1
+Format: 3.0 (native)
+Vcs-Browser: https://salsa.debian.org/debian/ca-certificates
+Vcs-Git: https://salsa.debian.org/debian/ca-certificates.git
+Checksums-Sha256:
+ 41120aa922b9520b73b88ef3fef18b807c7e5b6dd98c9dec51a3841dabe7fcb8 1837 ca-certificates_20200601~deb10u1.dsc
+ 5911c0471fd83141285c56c414be7f6e7176f28dc8d14a3c55f06303b79a92aa 245828 ca-certificates_20200601~deb10u1.tar.xz
+Package-List: 
+ ca-certificates deb misc optional arch=all
+ ca-certificates-udeb udeb debian-installer optional arch=all
+Directory: pool/main/c/ca-certificates
+Priority: source
+Section: misc
+
+Package: clamav
+Binary: clamav-base, clamav-docs, clamav, libclamav-dev, libclamav9, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter
+Version: 0.102.3+dfsg-0+deb10u1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>
+Build-Depends: automake, check, debhelper (>= 11), dh-apparmor, dh-strip-nondeterminism, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libsystemd-dev [linux-any], libtfm-dev, libxml2-dev, perl:native, pkg-config, po-debconf, python:native, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/clamav-team/clamav
+Vcs-Git: https://salsa.debian.org/clamav-team/clamav.git
+Checksums-Sha256:
+ da0ca5600c1c830d9e300dff13b9df49297e4d1b4ee2a58d72bf02d4fa5ce1e6 2818 clamav_0.102.3+dfsg-0+deb10u1.dsc
+ 13f75d7ceb5e011c1a6af31c2040dbd1037f91a2f51de42e02c28d1b25e13749 5018320 clamav_0.102.3+dfsg.orig.tar.xz
+ 3f21e4795213b26e704b6b4dfe7d81ca9fe0b669eb1e05b185e88391caf9457b 219360 clamav_0.102.3+dfsg-0+deb10u1.debian.tar.xz
+Homepage: https://www.clamav.net/
+Package-List: 
+ clamav deb utils optional arch=any
+ clamav-base deb utils optional arch=all
+ clamav-daemon deb utils optional arch=any
+ clamav-docs deb doc optional arch=all
+ clamav-freshclam deb utils optional arch=any
+ clamav-milter deb utils optional arch=any
+ clamav-testfiles deb utils optional arch=all
+ clamdscan deb utils optional arch=any
+ libclamav-dev deb libdevel optional arch=any
+ libclamav9 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/clamav
+Priority: source
+Section: utils
+
+Package: emacs
+Binary: emacs, emacs-lucid, emacs-nox, emacs-gtk, emacs-bin-common, emacs-common, emacs-el, emacs21, emacs21-nox, emacs22, emacs22-gtk, emacs22-nox, emacs23, emacs23-lucid, emacs23-nox, emacs24, emacs24-lucid, emacs24-nox, emacs25, emacs25-lucid, emacs25-nox
+Version: 1:26.1+1-3.2+deb10u1
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Build-Depends: bsd-mailx | mailx, libncurses5-dev, texinfo, liblockfile-dev, librsvg2-dev, dbus-x11, gnupg-agent, libgif-dev, libtiff-dev, libsystemd-dev, procps, xaw3dg-dev, libpng-dev, libjpeg-dev, libm17n-dev, libotf-dev, libgpm-dev [linux-any], libdbus-1-dev, autoconf, automake, dpkg-dev (>> 1.10.0), quilt (>= 0.42), debhelper (>= 10), libxaw7-dev, sharutils, imagemagick, libgtk-3-dev, libgnutls28-dev, libxml2-dev, libselinux1-dev [linux-any], libasound2-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libmagick++-6.q16-dev, libacl1-dev, liboss4-salsa-dev [hurd-i386 kfreebsd-i386 kfreebsd-amd64], zlib1g-dev
+Architecture: any all
+Standards-Version: 3.7.2
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/rlb/deb-emacs
+Vcs-Git: https://salsa.debian.org/rlb/deb-emacs.git
+Checksums-Sha256:
+ 85d0a6f6d0806130657cffc7526397dfa566798640a396a2b6faff6f33902099 3557 emacs_26.1+1-3.2+deb10u1.dsc
+ ab772b04e48396dba221a96d2bff466c9ab13203c5baf046eece0388ed3dff4d 24259708 emacs_26.1+1.orig.tar.xz
+ beb0495ef67f93d6b2426fcdc830f13938790fc44a2003ca35b2c5e84580dc84 59112 emacs_26.1+1-3.2+deb10u1.debian.tar.xz
+Homepage: https://www.gnu.org/software/emacs/
+Package-List: 
+ emacs deb editors optional arch=all
+ emacs-bin-common deb editors optional arch=any
+ emacs-common deb editors optional arch=all
+ emacs-el deb editors optional arch=all
+ emacs-gtk deb editors optional arch=any
+ emacs-lucid deb editors optional arch=any
+ emacs-nox deb editors optional arch=any
+ emacs21 deb oldlibs optional arch=all
+ emacs21-nox deb oldlibs optional arch=all
+ emacs22 deb oldlibs optional arch=all
+ emacs22-gtk deb oldlibs optional arch=all
+ emacs22-nox deb oldlibs optional arch=all
+ emacs23 deb oldlibs optional arch=all
+ emacs23-lucid deb oldlibs optional arch=all
+ emacs23-nox deb oldlibs optional arch=all
+ emacs24 deb oldlibs optional arch=all
+ emacs24-lucid deb oldlibs optional arch=all
+ emacs24-nox deb oldlibs optional arch=all
+ emacs25 deb oldlibs optional arch=all
+ emacs25-lucid deb oldlibs optional arch=all
+ emacs25-nox deb oldlibs optional arch=all
+Directory: pool/main/e/emacs
+Priority: extra
+Section: misc
+
+Package: libdatetime-timezone-perl
+Binary: libdatetime-timezone-perl
+Version: 1:2.23-1+2020e
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: perl, libclass-singleton-perl, libdatetime-perl, libmodule-runtime-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libscalar-list-utils-perl (>= 1:1.33), libspecio-perl, libtest-fatal-perl, libtest-output-perl, libtest-requires-perl, libtest-taint-perl, libtry-tiny-perl
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdatetime-timezone-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdatetime-timezone-perl.git
+Checksums-Sha256:
+ 9f9e666ee008811d30f84f6cb193f29344e742c456305243e2511f8eca553631 2647 libdatetime-timezone-perl_2.23-1+2020e.dsc
+ 6ae40286031853a4319c5b34516f1c09e429d5caa5f782165cc27175c89fe54f 965468 libdatetime-timezone-perl_2.23.orig.tar.gz
+ ffc4edf44c48596a2304830d2a0c763aecfe2540a77612521709fb52010f3f18 84380 libdatetime-timezone-perl_2.23-1+2020e.debian.tar.xz
+Homepage: http://datetime.perl.org/
+Package-List: 
+ libdatetime-timezone-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdatetime-timezone-perl
+Priority: source
+Section: perl
+
+Package: nx-libs
+Binary: nx-x11-common, nx-x11proto-core-dev, libnx-x11-6, libnx-x11-dev, nx-x11proto-xext-dev, nx-x11proto-composite-dev, nx-x11proto-damage-dev, nx-x11proto-xfixes-dev, nx-x11proto-xinerama-dev, nx-x11proto-randr-dev, nx-x11proto-render-dev, nx-x11proto-scrnsaver-dev, nxagent, nxproxy, libxcomp3, libxcomp-dev, libxcompshad3, libxcompshad-dev
+Version: 2:3.5.99.19-3+deb10u2
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Mihai Moldovan <ionic@ionic.de>, Debian Remote Maintainers <pkg-remote-team@lists.alioth.debian.org>
+Build-Depends: autoconf, automake, debhelper-compat (= 12), dpkg-dev (>= 1.16.1.1), expat, libjpeg-dev, libpixman-1-dev (>= 0.13.2), libpng-dev, libtool, libxcomposite-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev (>= 1.4.2), libxkbfile-dev, libxinerama-dev, libxml2-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxtst-dev, pkg-config, quilt (>= 0.46-7~), x11-xkb-utils, x11proto-core-dev, xutils-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/debian-remote-team/nx-libs
+Vcs-Git: https://salsa.debian.org/debian-remote-team/nx-libs.git
+Checksums-Sha256:
+ 55ee35109d587922233ecba696775a794561049324276b9e5437d656d8e05dbb 3944 nx-libs_3.5.99.19-3+deb10u2.dsc
+ 4dc623575c580e9ae32f1780b5e1e62d80792db814b6899355d68308a7470644 5301317 nx-libs_3.5.99.19.orig.tar.gz
+ 3d4fbc193af59b316178b9cf0112cf1df65ad180c61d703aacaac81cc7d3e548 833 nx-libs_3.5.99.19.orig.tar.gz.asc
+ a960acc654cd140983868498cf9baa61baf0f736f6b529e3a68bc131fb162106 63680 nx-libs_3.5.99.19-3+deb10u2.debian.tar.xz
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Package-List: 
+ libnx-x11-6 deb libs optional arch=any
+ libnx-x11-dev deb libdevel optional arch=any
+ libxcomp-dev deb libdevel optional arch=any
+ libxcomp3 deb libs optional arch=any
+ libxcompshad-dev deb libdevel optional arch=any
+ libxcompshad3 deb libs optional arch=any
+ nx-x11-common deb x11 optional arch=all
+ nx-x11proto-composite-dev deb libdevel optional arch=any
+ nx-x11proto-core-dev deb libdevel optional arch=any
+ nx-x11proto-damage-dev deb libdevel optional arch=any
+ nx-x11proto-randr-dev deb libdevel optional arch=any
+ nx-x11proto-render-dev deb libdevel optional arch=any
+ nx-x11proto-scrnsaver-dev deb libdevel optional arch=any
+ nx-x11proto-xext-dev deb libdevel optional arch=any
+ nx-x11proto-xfixes-dev deb libdevel optional arch=any
+ nx-x11proto-xinerama-dev deb libdevel optional arch=any
+ nxagent deb x11 optional arch=any
+ nxproxy deb x11 optional arch=any
+Directory: pool/main/n/nx-libs
+Priority: optional
+Section: misc
+
+Package: pagekite
+Binary: pagekite
+Version: 0.5.9.3-2+deb10u1
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Uploaders: Sunil Mohan Adapa <sunil@medhas.org> , Petter Reinholdtsen <pere@debian.org> , Federico Ceratto <federico@debian.org>
+Build-Depends: debhelper (>= 11~)
+Build-Depends-Indep: dh-python (>= 2.20151103), python (>= 2.6.6-3~), python-openssl, python-setuptools, python-socksipychain
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/freedombox-team/pagekite
+Vcs-Git: https://salsa.debian.org/freedombox-team/pagekite.git
+Checksums-Sha256:
+ 38ed67db9074ba7165a01f8904c740cfe850cc5638675daf77a298ba32800730 2221 pagekite_0.5.9.3-2+deb10u1.dsc
+ 10fa1464029cdf2430ee01f833d466f63163bd5065995da395a3edb929137695 503987 pagekite_0.5.9.3.orig.tar.gz
+ b516ebd2c9feae87aa7cf5ee93154e1833eebdb995328f8571253f9c9fbdacec 18000 pagekite_0.5.9.3-2+deb10u1.debian.tar.xz
+Homepage: https://pagekite.net/
+Package-List: 
+ pagekite deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: netcat-openbsd
+Directory: pool/main/p/pagekite
+Priority: optional
+Section: misc
+
+Package: tzdata
+Binary: tzdata
+Version: 2020e-0+deb10u1
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: po-debconf, rdfind, symlinks
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/glibc-team/tzdata
+Vcs-Git: https://salsa.debian.org/glibc-team/tzdata.git
+Checksums-Sha256:
+ 5a71897dde8b6c3ff6240ebe0c550b2287432e2a3f30f8eccc47722e3f809a00 2264 tzdata_2020e-0+deb10u1.dsc
+ 0be1ba329eae29ae1b54057c3547b3e672f73b3ae7643aa87dac85122bec037e 411619 tzdata_2020e.orig.tar.gz
+ 3d3f95883bdfb1a9b06a1f8a1010378421e6d603a281f3d3085ce84a10e0e722 833 tzdata_2020e.orig.tar.gz.asc
+ 9c895355a497621b27dbcdf74271efc3512136b1a07d07b0e3c179b5582beda3 106176 tzdata_2020e-0+deb10u1.debian.tar.xz
+Homepage: https://www.iana.org/time-zones
+Package-List: 
+ tzdata deb localization required arch=all
+Directory: pool/main/t/tzdata
+Priority: source
+Section: localization
+

@@ -1,0 +1,15 @@
+7f5f4bbfbed286e8459770ca64a2e643  usr/bin/hpijs
+21b3015ca208144dc7e4ea9ebee00826  usr/share/bug/printer-driver-hpijs/presubj
+adfd86fec92d60f6d9bdf7d4e950c663  usr/share/bug/printer-driver-hpijs/script
+82389b5a6514655bf488f115700ac7b5  usr/share/cups/drv/hpijs.drv
+ba36d1970ed6958d368b057a3d11d3b2  usr/share/cups/ppd-updaters/printer-driver-hpijs.ppd-updater
+d0c72ee82ca0bdcf7eb18223a4b44e99  usr/share/doc/printer-driver-hpijs/README.Debian
+a65914530bf22bb71079c49521a58c82  usr/share/doc/printer-driver-hpijs/changelog.Debian.gz
+4eaa991ca5725174363536965c7a8f25  usr/share/doc/printer-driver-hpijs/copyright
+f77c1735f42c85126694c4c0e7dbe978  usr/share/doc/printer-driver-hpijs/gdevijs-krgb-1.5-gs8.61.patch.gz
+9c23edd1790287457c5c3df080c3c29b  usr/share/doc/printer-driver-hpijs/users-guide.txt
+2f90797c0fa675878634b3b3c3739b27  usr/share/man/man1/hpijs.1.gz
+eb57df635ffd24d1f8692268202039a7  usr/share/ppd/hplip/HP/HP-Fax-hpijs.ppd.gz
+4db8f98cd7eb8cd020de030e0c46dedc  usr/share/ppd/hplip/HP/HP-Fax2-hpijs.ppd.gz
+8b7d35d9a9a33abdee222d276eb5d3ef  usr/share/ppd/hplip/HP/HP-Fax3-hpijs.ppd.gz
+0411a625fed83575cca5985a602e1ff6  usr/share/ppd/hplip/HP/HP-Fax4-hpijs.ppd.gz

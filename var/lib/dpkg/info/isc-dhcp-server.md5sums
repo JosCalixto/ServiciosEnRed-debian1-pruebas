@@ -1,0 +1,16 @@
+994bb67a15256dd45d743845cab3e981  usr/bin/omshell
+c3d1ce9c03accd5b795501d444becfee  usr/sbin/dhcp-lease-list
+4178d36f7ef86568b70f733c5c2b6b3c  usr/sbin/dhcpd
+2e88015083f506b1a8438ea7ecfa0afb  usr/share/doc/isc-dhcp-server/NEWS.Debian.gz
+9bd6989d5cda0b0fcb1a14b317931c60  usr/share/doc/isc-dhcp-server/README.Debian
+cb681b1932275b9379a2ddebc2b182a2  usr/share/doc/isc-dhcp-server/README.gz
+6e5727806c1b61b3276e9b6c12582e47  usr/share/doc/isc-dhcp-server/TODO.Debian
+8cf71a4150753df3802b9f7bdd3ba8f4  usr/share/doc/isc-dhcp-server/changelog.Debian.gz
+01446c1e2a543bd2bb18784e4fe13bb0  usr/share/doc/isc-dhcp-server/changelog.gz
+c504a080721290ea20972ad2954991a9  usr/share/doc/isc-dhcp-server/copyright
+7df121d67cad45b8f3793130195cb4b8  usr/share/doc/isc-dhcp-server/examples/dhcpd.conf.example
+c3e4630c1aea7f2ae876083c5cd72afb  usr/share/man/man1/omshell.1.gz
+7f67460ca18b41f4c44dce89ca0727e2  usr/share/man/man5/dhcpd.conf.5.gz
+31ee33c20a446976b263e2d5b0975197  usr/share/man/man5/dhcpd.leases.5.gz
+4bf445ce1a6bc85870ea2b1310465e05  usr/share/man/man8/dhcp-lease-list.8.gz
+fff501b67691c83d310f9ecf806bfba7  usr/share/man/man8/dhcpd.8.gz

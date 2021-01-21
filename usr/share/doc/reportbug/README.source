@@ -1,0 +1,101 @@
+Source layout
+=============
+
+The source tree for ``reportbug`` is organised this way:
+
+* Top level
+
+  * Installation tools
+
+* Debian packaging
+
+  * ``debian/`` contains the control files used to build the Debian
+    source and binary packages.
+
+* Programs
+
+  * ``bin/`` contains the end-user programs (e.g. ``reportbug``,
+    ``querybts``).
+
+* Libraries
+
+  * ``reportbug/`` contains the Python library module package used by
+    the programs.
+
+* `Unit testing framework`_
+
+  * ``test/`` contains the unit test suite. Unit test modules are
+    discovered and run using the ``nosetests3`` program, and are named
+    as ``test_*.py``.
+
+* Documentation
+
+  * ``doc/`` contains documentation for both users and developers.
+
+* Manual pages
+
+  * ``man/`` contains the manual pages for the programs.
+
+Unit testing framework
+======================
+
+The reportbug source package now has a unit testing framework.
+
+The directory ``test/`` contains unit test modules and supporting
+files. New unit test modules should be added to this directory and
+named ``test_*.py``.
+
+The unit test suite depends on the `python3-nose` package being
+installed, to make the ``nosetests3`` command available. The unit tests
+themselves can be written using the `unittest` modules in the standard
+Python library.
+
+The ``data/`` contains some additional files required by tests, such as
+control files, scripts, etc.
+
+``make`` targets for testing and quality checks
+-----------------------------------------------
+
+The following ``make`` targets are useful for testing and related
+tasks.
+
+* ``make tests`` runs the unit test suite, preceded by a timestamp
+  banner, and reports any test failures or "OK" if all tests pass.
+
+* ``make quicktests`` runs the unit test suite, but only for those
+  tests that dont require network access, which can be slow sometimes
+  (hence the name)
+
+* ``make coverage`` runs the test suite and collects test coverage
+  information, then reports the current statement coverage of the test
+  suite.
+
+  This requires the `python3-coverage` package to be installed. See its
+  documentation for more about its operation.
+
+* ``make coverhtml`` runs  the test suite and collects test coverage
+  information, then reports the current statement coverage using an HTML
+  output format.
+
+* ``make pyflakes`` runs the `pyflakes` static code checker on all
+  Python files found in the project tree.
+
+  This requires the `pyflakes` package to be installed. See its
+  documentation for more about its operation.
+
+* ``make pylint`` runs the `pylint` code checker on all code modules
+  and programs.
+
+  This requires the `pylint` package to be installed. See its
+  documentation for more about its operation.
+
+* ``make pep8`` runs the `pep8` static code checker.
+
+  This requires the `pep8` package to be installed.
+
+..
+    Local Variables:
+    coding: utf-8
+    mode: rst
+    End:
+    vim: filetype=rst :

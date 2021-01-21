@@ -1,0 +1,5 @@
+I:15655823
+E:ID_PCI_CLASS_FROM_DATABASE=Multimedia controller
+E:ID_PCI_SUBCLASS_FROM_DATABASE=Multimedia audio controller
+E:ID_VENDOR_FROM_DATABASE=Intel Corporation
+E:ID_MODEL_FROM_DATABASE=82801AA AC'97 Audio Controller

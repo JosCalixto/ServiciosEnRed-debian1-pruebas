@@ -1,0 +1,7 @@
+afcce4487714a246ac26accb370ede45  usr/sbin/update-inetd
+e98c4eb601cd837521e06082f446e4dc  usr/share/doc/update-inetd/changelog.gz
+c8c1067ab1a3105ae3243fff794f9a3f  usr/share/doc/update-inetd/copyright
+b18580b0484fe838c7936d55b2f11146  usr/share/lintian/overrides/update-inetd
+ffb2b6a7e50b8a26437411158c76f63d  usr/share/man/man1/update-inetd.1.gz
+54484162ce76179e4eec62752ac62626  usr/share/man/man3/DebianNet.3.gz
+a28380ce4e96368c53abf3033a894a25  usr/share/perl5/DebianNet.pm

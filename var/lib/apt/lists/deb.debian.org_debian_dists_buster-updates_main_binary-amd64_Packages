@@ -1,0 +1,973 @@
+Package: ca-certificates
+Version: 20200601~deb10u1
+Installed-Size: 381
+Maintainer: Michael Shuler <michael@pbandjelly.org>
+Architecture: all
+Depends: openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0
+Enhances: openssl
+Breaks: ca-certificates-java (<< 20121112+nmu1)
+Description: Common CA certificates
+Multi-Arch: foreign
+Description-md5: e867d2a359bea1800b5bff209fc65bd1
+Tag: protocol::ssl, role::app-data, security::authentication
+Section: misc
+Priority: optional
+Filename: pool/main/c/ca-certificates/ca-certificates_20200601~deb10u1_all.deb
+Size: 157776
+SHA256: 794bd3ffa0fc268dc8363f8924b2ab7cf831ab151574a6c1584790ce9945cbb2
+
+Package: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 747
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav-freshclam (>= 0.102.3+dfsg) | clamav-data, libc6 (>= 2.28), libclamav9 (>= 0.102.3), libcurl4 (>= 7.16.2), libjson-c3 (>= 0.10), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: libclamunrar, clamav-docs
+Description: anti-virus utility for Unix - command-line interface
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 173440
+SHA256: edef8d554ef61b16fb026ac17a9458da70bb80c15c18b62e5b64e1d46b483dce
+
+Package: clamav-base
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 165
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Description: anti-virus utility for Unix - base package
+Homepage: https://www.clamav.net/
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Tag: interface::commandline, role::app-data, role::program,
+ security::antivirus, use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-base_0.102.3+dfsg-0+deb10u1_all.deb
+Size: 118452
+SHA256: 0a766d9204884124c93c93ab52c44ddfb392d77eee871510cb962c687c03695e
+
+Package: clamav-daemon
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 1138
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamav-base (<< 0.98.1+dfsg-6)
+Depends: adduser, clamav-base (= 0.102.3+dfsg-0+deb10u1), clamav-freshclam (>= 0.102.3+dfsg) | clamav-data, dpkg (>= 1.16.1), lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libclamav9 (>= 0.102.3), libcurl4 (>= 7.18.2), libncurses6 (>= 6), libssl1.1 (>= 1.1.0), libsystemd0, libtinfo6 (>= 6), zlib1g (>= 1:1.2.0.2)
+Recommends: clamdscan
+Suggests: libclamunrar, apparmor, clamav-docs, daemon
+Breaks: clamav-base (<< 0.98.1+dfsg-6)
+Description: anti-virus utility for Unix - scanner daemon
+Homepage: https://www.clamav.net/
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::server, role::program, security::antivirus,
+ uitoolkit::ncurses, use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-daemon_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 279740
+SHA256: e5d52fbd2f5ebd22ad282a3a3698c3a7387007500528f549f5ab5280cf8a8e71
+
+Package: clamav-docs
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 479
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - documentation
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: af78818bbdf8851b6358c15693a31419
+Tag: made-of::html, made-of::pdf, mail::filters, role::documentation,
+ role::program, security::antivirus, works-with::file, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/c/clamav/clamav-docs_0.102.3+dfsg-0+deb10u1_all.deb
+Size: 204992
+SHA256: c84540a002b2dcefc87e3194d5f4b80a2f9a2db102f352796595a2d8e24a6f09
+
+Package: clamav-freshclam
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 468
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: clamav-data
+Depends: clamav-base (>= 0.102.3+dfsg-0+deb10u1), dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), libclamav9 (>= 0.102.3)
+Recommends: ca-certificates
+Suggests: apparmor, clamav-docs
+Conflicts: clamav-data, libclamav2, libclamav3
+Description: anti-virus utility for Unix - virus database update utility
+Homepage: https://www.clamav.net/
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ role::program, scope::utility, security::antivirus, use::downloading,
+ works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-freshclam_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 192472
+SHA256: a3c4c15f6b6d5286630efa608864aa1fca3880b45a3be21221b28d2e9440edb8
+
+Package: clamav-milter
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 612
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, clamav-base (>= 0.102.3+dfsg-0+deb10u1), clamav-freshclam (>= 0.102.3+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libmilter1.0.1, libssl1.1 (>= 1.1.0)
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Description: anti-virus utility for Unix - sendmail integration
+Homepage: https://www.clamav.net/
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Tag: implemented-in::c, interface::daemon, mail::filters, network::server,
+ role::program, security::antivirus, use::scanning, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-milter_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 253364
+SHA256: fd0583eca737ab2744dda39d8832cbbf36f567f7093319779c53f1aaf28a79b4
+
+Package: clamav-testfiles
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 6539
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - test files
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Tag: devel::testing-qa, interface::commandline, made-of::dictionary,
+ role::app-data, role::program, security::antivirus, use::checking
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-testfiles_0.102.3+dfsg-0+deb10u1_all.deb
+Size: 2885232
+SHA256: 385a05d451c96ea3ddad91401091938f5bbf831d2e34556d98447ec29daf6fb6
+
+Package: clamdscan
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 322
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamd (<< 0.98.5~beta1+dfsg-3)
+Depends: clamav-base (= 0.102.3+dfsg-0+deb10u1), libc6 (>= 2.28), libssl1.1 (>= 1.1.0)
+Suggests: clamav-daemon, clamav-docs
+Breaks: clamd (<< 0.98.5~beta1+dfsg-3)
+Description: anti-virus utility for Unix - scanner client
+Homepage: https://www.clamav.net/
+Description-md5: ad077e4c74b9870b6e7bb55aef11c547
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamdscan_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 130308
+SHA256: eb5e16716f6d795c18f642b2eafe46b0af65f78c522b31a4a22cbb57b1cd8153
+
+Package: libclamav-dev
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 159
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-dev, libc6-dev | libc-dev, libclamav9 (= 0.102.3+dfsg-0+deb10u1), libidn11-dev, libssl-dev, libtommath-dev, zlib1g-dev
+Description: anti-virus utility for Unix - development files
+Homepage: https://www.clamav.net/
+Description-md5: 3dc197b6ebfb15522a4b7913ea796763
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ role::program, security::antivirus, use::scanning
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/clamav/libclamav-dev_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 70608
+SHA256: 68e79b22177f3d691532ab53b681295c196d9a82d832665c9f52402f67ac9528
+
+Package: libclamav9
+Source: clamav
+Version: 0.102.3+dfsg-0+deb10u1
+Installed-Size: 2196
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-1.0, libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libltdl7 (>= 2.4.6), libmspack0 (>= 0.4), libpcre2-8-0 (>= 10.32), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.1.1), libtfm1 (>= 0.13), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.3.4)
+Suggests: libclamunrar, libclamunrar9
+Description: anti-virus utility for Unix - library
+Multi-Arch: same
+Homepage: https://www.clamav.net/
+Description-md5: bf2e797d0e7e410776d9200761e01bd6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/c/clamav/libclamav9_0.102.3+dfsg-0+deb10u1_amd64.deb
+Size: 840692
+SHA256: 846a25cab6d88187f8016f0a20aa627beb5020bdeb72d1da717b8716ffda82b3
+
+Package: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:26.1) | emacs-lucid (>= 1:26.1) | emacs-nox (>= 1:26.1)
+Description: GNU Emacs editor (metapackage)
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: f991b22b712b84422dc583d29a7b2171
+Tag: devel::editor, role::dummy, role::metapackage, role::program,
+ suite::emacs, suite::gnu, use::editing
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs_26.1+1-3.2+deb10u1_all.deb
+Size: 44488
+SHA256: d45d9284189675d754a5703a15c7d1d0d74ccc3ce90d19c03159efece02b5f0c
+
+Package: emacs-bin-common
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 474
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: amd64
+Depends: emacs-common (= 1:26.1+1-3.2+deb10u1), libc6 (>= 2.17)
+Recommends: mailutils
+Description: GNU Emacs editor's shared, architecture dependent files
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: aca5839c665e000e012365be48ed6ddb
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs-bin-common_26.1+1-3.2+deb10u1_amd64.deb
+Size: 143700
+SHA256: 0982c3932f211d8cc289559fa436f882da8f9c8a5e8c26c6a903f327ead308ea
+
+Package: emacs-common
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 66804
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacsen-common (>= 3.0.0), install-info
+Recommends: emacs-el
+Suggests: emacs-common-non-dfsg, ncurses-term
+Conflicts: cedet, eieio, emacs-el (<< 1:26.1+1-3.2+deb10u1), gnus-bonus-el, speedbar
+Breaks: apel (<< 10.8+0.20120427-4), edb (<< 1.32), egg (<< 4.2.0-2), emacs (<< 1:25), emacs-gtk (<< 1:25), emacs-lucid (<< 1:25), emacs-nox (<< 1:25), emacs21 (<< 1:25), emacs21-nox (<< 1:25), emacs22 (<< 1:25), emacs22-gtk (<< 1:25), emacs22-nox (<< 1:25), emacs23 (<< 1:25), emacs23-lucid (<< 1:25), emacs23-nox (<< 1:25), emacs24 (<< 1:25), emacs24-lucid (<< 1:25), emacs24-nox (<< 1:25), emacs25 (<< 1:25), emacs25-lucid (<< 1:25), emacs25-nox (<< 1:25)
+Description: GNU Emacs editor's shared, architecture independent infrastructure
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 6cd713b399cc25b7a950c1c84e3becfa
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs-common_26.1+1-3.2+deb10u1_all.deb
+Size: 13353948
+SHA256: 3b0df40f634f7bb56acea6eabc63462c196f8817b0f890ed896c347c0b05767e
+
+Package: emacs-el
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 16150
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-common (= 1:26.1+1-3.2+deb10u1)
+Description: GNU Emacs LISP (.el) files
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 293759cc44e4faeb7e4ad6e292cf8c63
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs-el_26.1+1-3.2+deb10u1_all.deb
+Size: 15912824
+SHA256: 2c63734d60003519891b96328f1c8565ccc329a99a8d7391e89520be7189c517
+
+Package: emacs-gtk
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 41824
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: amd64
+Replaces: emacs-lucid, emacs-nox
+Provides: editor, emacs, emacsen, info-browser, mail-reader, news-reader
+Depends: emacs-bin-common (= 1:26.1+1-3.2+deb10u1), emacs-common (= 1:26.1+1-3.2+deb10u1), libacl1 (>= 2.2.23), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.25), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.6.6), libgomp1 (>= 4.2.1), libgpm2 (>= 1.20.7), libgtk-3-0 (>= 3.21.4), libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libm17n-0 (>= 1.6.1), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2), libotf0 (>= 0.9.11), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), librsvg2-2 (>= 2.14.4), libselinux1 (>= 1.32), libsm6, libsystemd0, libtiff5 (>= 4.0.3), libtinfo6 (>= 6), libx11-6, libx11-xcb1, libxcb1, libxext6, libxfixes3 (>= 1:4.0.1), libxft2 (>> 2.1.1), libxinerama1, libxml2 (>= 2.7.4), libxpm4, libxrandr2, libxrender1, zlib1g (>= 1:1.1.4)
+Suggests: emacs-common-non-dfsg
+Conflicts: emacs-lucid, emacs-nox
+Description: GNU Emacs editor (with GTK+ GUI support)
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: b2c7312f962a9c1f44e581022b7a026e
+Tag: uitoolkit::gtk
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs-gtk_26.1+1-3.2+deb10u1_amd64.deb
+Size: 3554408
+SHA256: e902a2a0c88b721fb7a15b709a835ae33e1875d6b722450a6491dfaf15e78a74
+
+Package: emacs-lucid
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 41844
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: amd64
+Replaces: emacs-gtk, emacs-nox
+Provides: editor, emacs, emacsen, info-browser, mail-reader, news-reader
+Depends: emacs-bin-common (= 1:26.1+1-3.2+deb10u1), emacs-common (= 1:26.1+1-3.2+deb10u1), libacl1 (>= 2.2.23), libasound2 (>= 1.0.16), libc6 (>= 2.25), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.16.0), libgnutls30 (>= 3.6.6), libgomp1 (>= 4.2.1), libgpm2 (>= 1.20.7), libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libm17n-0 (>= 1.6.1), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2), libotf0 (>= 0.9.11), libpng16-16 (>= 1.6.2-1), librsvg2-2 (>= 2.14.4), libselinux1 (>= 1.32), libsm6, libsystemd0, libtiff5 (>= 4.0.3), libtinfo6 (>= 6), libx11-6, libx11-xcb1, libxcb1, libxext6, libxfixes3 (>= 1:4.0.1), libxft2 (>> 2.1.1), libxinerama1, libxml2 (>= 2.7.4), libxmu6, libxpm4, libxrandr2 (>= 2:1.2.99.3), libxrender1, libxt6, xaw3dg (>= 1.5+E-1), zlib1g (>= 1:1.1.4)
+Suggests: emacs-common-non-dfsg
+Conflicts: emacs-gtk, emacs-nox
+Description: GNU Emacs editor (with Lucid GUI support)
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 9d732a75402fcf8b7c270985ef008093
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs-lucid_26.1+1-3.2+deb10u1_amd64.deb
+Size: 3564680
+SHA256: 75a255dee3e2f4b5ddd640c76cc1bfff7f7f33e8208ccd73b9da132ea24b5868
+
+Package: emacs-nox
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 41233
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: amd64
+Replaces: emacs-gtk, emacs-lucid
+Provides: editor, emacs, emacsen, info-browser, mail-reader, news-reader
+Depends: emacs-bin-common (= 1:26.1+1-3.2+deb10u1), emacs-common (= 1:26.1+1-3.2+deb10u1), libacl1 (>= 2.2.23), libasound2 (>= 1.0.16), libc6 (>= 2.25), libdbus-1-3 (>= 1.9.14), libgnutls30 (>= 3.6.6), libgpm2 (>= 1.20.7), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libselinux1 (>= 1.32), libsystemd0, libtinfo6 (>= 6), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Suggests: emacs-common-non-dfsg
+Conflicts: emacs-gtk, emacs-lucid
+Description: GNU Emacs editor (without GUI support)
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: d7627aff9867f2ba95f2b9dcfc399d6a
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs-nox_26.1+1-3.2+deb10u1_amd64.deb
+Size: 3146452
+SHA256: 0bb70e78bf240d183948bbf2eaa519f98699bd1ab9e040095f5eae5214492501
+
+Package: emacs21
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:25)
+Description: GNU Emacs transitional package to emacs-gtk
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 694259f63bdf6831cb5ad46806fdc0da
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs21_26.1+1-3.2+deb10u1_all.deb
+Size: 44504
+SHA256: abb1ceca0e6d4902cc84218519e14e61aeeb3fa7b77de90613b5135a0b67fcb4
+
+Package: emacs21-nox
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-nox (>= 1:25)
+Description: GNU Emacs transitional package to emacs-nox
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 98236aae783f76b40576cb8d66c6152f
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs21-nox_26.1+1-3.2+deb10u1_all.deb
+Size: 44520
+SHA256: 500f5b77aea90fdd2be3e7d98ee5316a8437e08fed7e56aad9d509e2608c0232
+
+Package: emacs22
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:25)
+Description: GNU Emacs transitional package to emacs-gtk
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 9058490c9a3d3f00e6a59ede154bd7e1
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs22_26.1+1-3.2+deb10u1_all.deb
+Size: 44504
+SHA256: fa972334af841ebfa8190ee8e8ad98c67070742d7015c9a36c1fa967441d4eda
+
+Package: emacs22-gtk
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:25)
+Description: GNU Emacs transitional package to emacs-gtk
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 9058490c9a3d3f00e6a59ede154bd7e1
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs22-gtk_26.1+1-3.2+deb10u1_all.deb
+Size: 44524
+SHA256: 6f15c012944fb78fb0185f869217fb566ccdc4e68dffc52d7f9f1417c82f64ac
+
+Package: emacs22-nox
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-nox (>= 1:25)
+Description: GNU Emacs transitional package to emacs-nox
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 4b8d30cfb6889fcee39463a6f0f51bf0
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs22-nox_26.1+1-3.2+deb10u1_all.deb
+Size: 44516
+SHA256: 555cec870f4775b050f94546888e75630f6a6a7a091701b1ab2fc1fdcc30f5b3
+
+Package: emacs23
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:25)
+Description: GNU Emacs transitional package to emacs-gtk
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 6091836db9b23c9e3a008356435b7eb4
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs23_26.1+1-3.2+deb10u1_all.deb
+Size: 44508
+SHA256: c843aaffe9880069d9a06eeeebca214582d423df8a757a9e7fcfc8272dd00f25
+
+Package: emacs23-lucid
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-lucid (>= 1:25)
+Description: GNU Emacs transitional package to emacs-lucid
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 7599c8eff9507249cebdf9242a98f6d9
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs23-lucid_26.1+1-3.2+deb10u1_all.deb
+Size: 44520
+SHA256: b7b593d71930a849ab403ece92c87b6e8380ffba7be33e5a49f6eece5a404ce5
+
+Package: emacs23-nox
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-nox (>= 1:25)
+Description: GNU Emacs transitional package to emacs-nox
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 9a9594ce9a39d07750ad32229f85e024
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs23-nox_26.1+1-3.2+deb10u1_all.deb
+Size: 44516
+SHA256: 5262b3b4e8bfdd129d175aae87eba9d3118296571011f6d005dd7470357ad01b
+
+Package: emacs24
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:25)
+Description: GNU Emacs transitional package to emacs-gtk
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 307eb6eee1544418bb605c9d89ad9c65
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs24_26.1+1-3.2+deb10u1_all.deb
+Size: 44500
+SHA256: cc4752c1f7ce00e006d73c8dfa587480bf6ad675cff5fe9566380aa4fbf728ea
+
+Package: emacs24-lucid
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-lucid (>= 1:25)
+Description: GNU Emacs transitional package to emacs-lucid
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 8b5da92462fe6311b7f782419a8e971b
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs24-lucid_26.1+1-3.2+deb10u1_all.deb
+Size: 44516
+SHA256: c1a6e29a75b22b64db2a5df681121565cb2c6dea154cd411d4672e9036df09d2
+
+Package: emacs24-nox
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-nox (>= 1:25)
+Description: GNU Emacs transitional package to emacs-nox
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 7deee778e71e513761293759297ae327
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/e/emacs/emacs24-nox_26.1+1-3.2+deb10u1_all.deb
+Size: 44512
+SHA256: e4d6bb3cf6aafadf0542930d99e1e233e86335055b31019e2d930d53f1398f9f
+
+Package: emacs25
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-gtk (>= 1:25)
+Description: GNU Emacs transitional package to emacs-gtk
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: e1cbd9b6965f6fca9a8fd1528fa6e654
+Tag: uitoolkit::gtk
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs25_26.1+1-3.2+deb10u1_all.deb
+Size: 44496
+SHA256: f5570eff6defdd2361b20ab02b85dd3cd30bbb902522e7bdfebc623fb9800855
+
+Package: emacs25-lucid
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-lucid (>= 1:25)
+Description: GNU Emacs transitional package to emacs-lucid
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: 1c5f89eff0bbfdde32ac11084530fee8
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs25-lucid_26.1+1-3.2+deb10u1_all.deb
+Size: 44520
+SHA256: c51a4204145660b9631fb0cfb8538e5b950253fb0bb2c141fb05a087d6704577
+
+Package: emacs25-nox
+Source: emacs
+Version: 1:26.1+1-3.2+deb10u1
+Installed-Size: 75
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Depends: emacs-nox (>= 1:25)
+Description: GNU Emacs transitional package to emacs-nox
+Homepage: https://www.gnu.org/software/emacs/
+Description-md5: def3016d0b07c24edeaf8fc66567125a
+Section: editors
+Priority: optional
+Filename: pool/main/e/emacs/emacs25-nox_26.1+1-3.2+deb10u1_all.deb
+Size: 44508
+SHA256: 8bc433e7b58a3ce7f2239864b13a1c185edd64ee6d9a9540a363189da308f9a5
+
+Package: libdatetime-timezone-perl
+Version: 1:2.23-1+2020e
+Installed-Size: 6991
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl, libclass-singleton-perl, libmodule-runtime-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libscalar-list-utils-perl (>= 1:1.33), libspecio-perl, libtry-tiny-perl
+Recommends: libdatetime-perl
+Description: framework exposing the Olson time zone database to Perl
+Homepage: http://datetime.perl.org/
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Tag: devel::lang:perl, devel::library, implemented-in::perl, use::timekeeping
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdatetime-timezone-perl/libdatetime-timezone-perl_2.23-1+2020e_all.deb
+Size: 280672
+SHA256: 5e735e0a081888ce0f92445cc9f60c172eaa4187f19fc57911f4078c6c7664c9
+
+Package: libnx-x11-6
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 1633
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: libnx-xau6, libnx-xcomposite1, libnx-xdamage1, libnx-xdmcp6, libnx-xext6, libnx-xfixes3, libnx-xinerama1, libnx-xpm4, libnx-xrandr2, libnx-xrender1, libnx-xtst6, nxlibs
+Depends: libx11-data, libxcomp3 (= 2:3.5.99.19-3+deb10u2), nx-x11-common (<< 2:3.5.99.19-3+deb10u2.1), nx-x11-common (>= 2:3.5.99.19-3+deb10u2), libc6 (>= 2.15)
+Breaks: libnx-x11 (<< 2:3.5.0.29-1~), libnx-xau6 (<< 2:3.6.0.0), libnx-xcomposite1 (<< 2:3.6.0.0), libnx-xdamage1 (<< 2:3.6.0.0), libnx-xdmcp6 (<< 2:3.6.0.0), libnx-xext6 (<< 2:3.6.0.0), libnx-xfixes3 (<< 2:3.6.0.0), libnx-xinerama1 (<< 2:3.6.0.0), libnx-xpm4 (<< 2:3.6.0.0), libnx-xrandr2 (<< 2:3.6.0.0), libnx-xrender1 (<< 2:3.6.0.0), libnx-xtst6 (<< 2:3.6.0.0), nxlibs (<= 3.5.1)
+Description: nxagent's libNX_X11 client-part library
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: fde12ec89f69b45155aa3fbb34f081c6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nx-libs/libnx-x11-6_3.5.99.19-3+deb10u2_amd64.deb
+Size: 730980
+SHA256: 4c6521759c30ec9a5d9884476d415096815a93867622c5e3920bd4a3311fccd2
+
+Package: libnx-x11-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 2730
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: libnx-xau-dev, libnx-xcomposite-dev, libnx-xdamage-dev, libnx-xdmcp-dev, libnx-xext-dev, libnx-xfixes-dev, libnx-xinerama-dev, libnx-xpm-dev, libnx-xrandr-dev, libnx-xrender-dev, libnx-xtst-dev, nxlibs-dev
+Provides: libnx-x11-6-dev
+Depends: libnx-x11-6 (= 2:3.5.99.19-3+deb10u2)
+Breaks: libnx-xau-dev (<< 2:3.6.0.0), libnx-xcomposite-dev (<< 2:3.6.0.0), libnx-xdamage-dev (<< 2:3.6.0.0), libnx-xdmcp-dev (<< 2:3.6.0.0), libnx-xext-dev (<< 2:3.6.0.0), libnx-xfixes-dev (<< 2:3.6.0.0), libnx-xinerama-dev (<< 2:3.6.0.0), libnx-xpm-dev (<< 2:3.6.0.0), libnx-xrandr-dev (<< 2:3.6.0.0), libnx-xrender-dev (<< 2:3.6.0.0), libnx-xtst-dev (<< 2:3.6.0.0), nxlibs-dev (<= 3.5.1)
+Description: nxagent's libNX_X11 client-part library (development headers)
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: bb6ec802cfe36a04708b9d1a7af555b5
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/libnx-x11-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 813748
+SHA256: fd1efd14f7b93ad29a26c6c783ae8df6c8e9014725616e9e750dcd98b407d721
+
+Package: libxcomp-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 3292
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcomp-dev
+Provides: libxcomp3-dev
+Depends: libxcomp3 (= 2:3.5.99.19-3+deb10u2)
+Breaks: nxcomp-dev (<= 3.5.1)
+Description: NX compression library (development headers)
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 43a042e61e714cf0eb43b333d5430db2
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcomp-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 552436
+SHA256: 08154fbf2a8933a100c30045f81a51ef71dc31fecb7bcde6a7f85a359b6a7b0f
+
+Package: libxcomp3
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 1535
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcomp, qvd-libxcomp3
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Breaks: nxcomp (<= 3.5.1), qvd-libxcomp3
+Description: NX compression library
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 4c74a78bb6e9350290b346de36b2cbff
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcomp3_3.5.99.19-3+deb10u2_amd64.deb
+Size: 588096
+SHA256: 5c98594f2639858e017faf1294eb41b3ef2e3a757fa9775889a64079172895eb
+
+Package: libxcompshad-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 385
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcompshad-dev
+Provides: libxcompshad3-dev
+Depends: libxcompshad3 (= 2:3.5.99.19-3+deb10u2)
+Breaks: nxcompshad-dev (<= 3.5.1)
+Description: NX shadowing library (development headers)
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 054ef92929d469c3af75e55fa1ec0494
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcompshad-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 179544
+SHA256: 007a7078fb9c7d8228bcf6dde3f282166ffb2f730174476c6552318b5d4ea19d
+
+Package: libxcompshad3
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 355
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcompshad
+Depends: libnx-x11-6 (= 2:3.5.99.19-3+deb10u2), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2, libxtst6
+Breaks: nxcompshad (<= 3.5.1)
+Description: NX shadowing library
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 8c553b25dba2dbcfab51648e90c6f00d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcompshad3_3.5.99.19-3+deb10u2_amd64.deb
+Size: 177672
+SHA256: 8b63c14e09fc4737faef048a8c82b80c52760a335a02d4ec568893e4ecb3ff43
+
+Package: nx-x11-common
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 341
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: all
+Breaks: libnx-x11 (<< 2:3.5.0.29-1~), nxagent (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 (common files)
+Multi-Arch: foreign
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 0f6a6249e30d3d81043f7dce2e77290d
+Section: x11
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11-common_3.5.99.19-3+deb10u2_all.deb
+Size: 169056
+SHA256: 7b991f1372c0dbd2f20d291db8971b582e1780b6f6d92ec1b1463ec561040b68
+
+Package: nx-x11proto-composite-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 303
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 Composite extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: d7d14ffab71a13191236443f2f468ed6
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-composite-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 161056
+SHA256: 9ec887cab654ae7a36e27f25d57407719f5a880ea40c4fe077cc06a942e9cc71
+
+Package: nx-x11proto-core-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 674
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 core wire protocol and auxiliary headers
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 071c816849f1b6bbd0468600d7aa8445
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-core-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 216536
+SHA256: 9b098a7d8357ab864069cb5f6183a3cf51339da765aefcd1a1c5f8ffa77e543b
+
+Package: nx-x11proto-damage-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 302
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 Damage extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 660ea609f01936937badb51478e6b05f
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-damage-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 161120
+SHA256: 40878907b3b72e5dc056ba2b437417cc72096f5118ef18744efda6f2b193336f
+
+Package: nx-x11proto-randr-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 330
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 RandR extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 227a74a2c21ee02a87b0b0b70becb0ed
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-randr-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 164400
+SHA256: 6fbddce734ccf98539911cb00f3c35b7b6fa24c462a64e793615b85fc6f14683
+
+Package: nx-x11proto-render-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 317
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 Render extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 2bdda02d6c05d81c070a1f1027f6b1cc
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-render-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 163268
+SHA256: 036fbf813eeb9c891a5956d2cfb6c5904524afb4eed8900842b5c1a7cc84cafe
+
+Package: nx-x11proto-scrnsaver-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 309
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 Screen Saver extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 2d1a950b3cac1ba4c7ffeaa9c1ea9ce3
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-scrnsaver-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 162084
+SHA256: 94c19b502511b9a041e24d7665b1574ad6790065c2926f7ffb54f8bcf9da8b5a
+
+Package: nx-x11proto-xext-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 394
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), libnx-xext-dev (<< 2:3.5.99.0~), nxlibs (<= 3.5.1)
+Description: nx-X11 miscellaneous extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 904971b878e80c2ed20a0dde8c1f7afe
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-xext-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 175164
+SHA256: 1562064bf86e0fccf8ce87a5149211993d5382b8e372728c8e20308a6ace1c52
+
+Package: nx-x11proto-xfixes-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 316
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 'xfixes' extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: bc306b8de2bc581d62e109b3d72b10b5
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-xfixes-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 162496
+SHA256: d48cebe0f6c2af7883632f328c207a98076d769088254ee147ab2ccd40bcee15
+
+Package: nx-x11proto-xinerama-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 305
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 Xinerama extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 116ba2a3837132e5f0d55af6485d1808
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-xinerama-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 161356
+SHA256: d909d6fb76ab0d368c4e7df9311b46fd880db856e598008bd99fd5f1e3b864a4
+
+Package: nxagent
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 4904
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: libxcompext3, nxauth
+Depends: libnx-x11-6 (= 2:3.5.99.19-3+deb10u2), libxcomp3 (= 2:3.5.99.19-3+deb10u2), libxcompshad3 (= 2:3.5.99.19-3+deb10u2), python3, python3-gi, gir1.2-gtk-3.0, x11-xkb-utils, libc6 (>= 2.28), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.13.2), libpng16-16 (>= 1.6.2-1), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxdmcp6, libxext6, libxfixes3, libxfont2 (>= 1:2.0.1), libxinerama1, libxml2 (>= 2.7.4), libxpm4, libxrender1, zlib1g (>= 1:1.1.4)
+Recommends: xfonts-base, xkb-data
+Breaks: libxcompext3 (<< 2:3.5.99.3~), nxauth
+Description: Nested Xserver (aka NX Agent) supporting the NX compression protocol
+Multi-Arch: foreign
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 6901a02eeae40dada3699e11a76435ed
+Section: x11
+Priority: optional
+Filename: pool/main/n/nx-libs/nxagent_3.5.99.19-3+deb10u2_amd64.deb
+Size: 1627104
+SHA256: 878acd556944541acbec9d8adbc443b2f49bcdd86f201b1c4505d8098820b422
+
+Package: nxproxy
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 320
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxauth, qvd-nxproxy
+Depends: libxcomp3 (= 2:3.5.99.19-3+deb10u2), libc6 (>= 2.3.4)
+Breaks: nxauth, qvd-nxproxy
+Description: NX proxy
+Multi-Arch: foreign
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 535efe982dd954a773c0924b9bd58a62
+Tag: implemented-in::c++, interface::commandline, network::client,
+ role::program
+Section: x11
+Priority: optional
+Filename: pool/main/n/nx-libs/nxproxy_3.5.99.19-3+deb10u2_amd64.deb
+Size: 167648
+SHA256: 85b509a3a39443923619b0a7559f784cf2ea3070b05fbec3346a2fc327515018
+
+Package: pagekite
+Version: 0.5.9.3-2+deb10u1
+Installed-Size: 553
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Architecture: all
+Depends: python-socksipychain (>= 2.0.15), python:any (<< 2.8), python:any (>= 2.7~), ca-certificates, daemon (>= 0.6), python-openssl
+Description: Make localhost servers publicly visible
+Homepage: https://pagekite.net/
+Description-md5: 6ac3b9f649af620bc24cc357d58a580f
+Tag: implemented-in::python, interface::commandline, interface::daemon,
+ network::client, network::server, network::vpn, protocol::finger,
+ protocol::http, protocol::irc, protocol::ssh, role::program,
+ use::proxying, use::transmission
+Section: net
+Priority: optional
+Filename: pool/main/p/pagekite/pagekite_0.5.9.3-2+deb10u1_all.deb
+Size: 138448
+SHA256: baadfbc6639efe2e01c6d2f06ef7a8d36544134505eb9caf5fcf2666f0dc0c8c
+
+Package: tzdata
+Version: 2020e-0+deb10u1
+Installed-Size: 3040
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Replaces: libc0.1, libc0.3, libc6, libc6.1
+Provides: tzdata-buster
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: https://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2020e-0+deb10u1_all.deb
+Size: 265624
+SHA256: 8d29056ddc7d1b63f092e0c30464398d9c4b5a94d89d395c0f681470a951fab6
+

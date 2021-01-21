@@ -1,0 +1,12 @@
+[Unit]
+Description=CUPS Scheduler
+Documentation=man:cupsd(8)
+
+[Service]
+ExecStart=/usr/sbin/cupsd -l
+Type=simple
+Restart=on-failure
+
+[Install]
+Also=cups.socket cups.path
+WantedBy=printer.target

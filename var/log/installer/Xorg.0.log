@@ -1,0 +1,582 @@
+[     2.573] 
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+[     2.575] Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
+[     2.577] Current Operating System: Linux (none) 4.19.0-6-amd64 #1 SMP Debian 4.19.67-2+deb10u1 (2019-09-20) x86_64
+[     2.577] Kernel command line: BOOT_IMAGE=/install.amd/vmlinuz vga=788 initrd=/install.amd/gtk/initrd.gz --- quiet 
+[     2.584] Build Date: 05 March 2019  08:11:12PM
+[     2.586] xorg-server 2:1.20.4-1 (https://www.debian.org/support) 
+[     2.589] Current version of pixman: 0.36.0
+[     2.595] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     2.595] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     2.608] (==) Log file: "/var/log/Xorg.0.log", Time: Sat Jan  9 14:46:34 2021
+[     2.612] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     2.612] (==) No Layout section.  Using the first Screen section.
+[     2.612] (==) No screen section available. Using defaults.
+[     2.612] (**) |-->Screen "Default Screen Section" (0)
+[     2.612] (**) |   |-->Monitor "<default monitor>"
+[     2.612] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     2.612] (==) Automatically adding devices
+[     2.612] (==) Automatically enabling devices
+[     2.612] (==) Automatically adding GPU devices
+[     2.612] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     2.612] (==) FontPath set to:
+	built-ins
+[     2.612] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     2.612] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     2.613] (II) Loader magic: 0x5573fa4e4aa0
+[     2.613] (II) Module ABI versions:
+[     2.613] 	X.Org ANSI C Emulation: 0.4
+[     2.613] 	X.Org Video Driver: 24.0
+[     2.613] 	X.Org XInput driver : 24.1
+[     2.613] 	X.Org Server Extension : 10.0
+[     2.614] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xf0000000/16777216, 0xf1000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[     2.614] (==) Matched vmware as autoconfigured driver 0
+[     2.614] (==) Matched modesetting as autoconfigured driver 1
+[     2.614] (==) Matched fbdev as autoconfigured driver 2
+[     2.614] (==) Matched vesa as autoconfigured driver 3
+[     2.614] (==) Assigned the driver to the xf86ConfigLayout
+[     2.614] (II) LoadModule: "vmware"
+[     2.614] (WW) Warning, couldn't open module vmware
+[     2.614] (EE) Failed to load module "vmware" (module does not exist, 0)
+[     2.614] (II) LoadModule: "modesetting"
+[     2.614] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     2.614] (II) Module modesetting: vendor="X.Org Foundation"
+[     2.614] 	compiled for 1.20.4, module version = 1.20.4
+[     2.614] 	Module class: X.Org Video Driver
+[     2.614] 	ABI class: X.Org Video Driver, version 24.0
+[     2.614] (II) LoadModule: "fbdev"
+[     2.614] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     2.614] (II) Module fbdev: vendor="X.Org Foundation"
+[     2.614] 	compiled for 1.20.0, module version = 0.5.0
+[     2.614] 	Module class: X.Org Video Driver
+[     2.614] 	ABI class: X.Org Video Driver, version 24.0
+[     2.614] (II) LoadModule: "vesa"
+[     2.614] (WW) Warning, couldn't open module vesa
+[     2.614] (EE) Failed to load module "vesa" (module does not exist, 0)
+[     2.614] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     2.614] (II) FBDEV: driver for framebuffer: fbdev
+[     2.614] (--) using VT number 5
+
+[     2.628] (EE) open /dev/dri/card0: No such file or directory
+[     2.628] (WW) Falling back to old probe method for modesetting
+[     2.628] (EE) open /dev/dri/card0: No such file or directory
+[     2.628] (II) Loading sub module "fbdevhw"
+[     2.628] (II) LoadModule: "fbdevhw"
+[     2.628] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     2.628] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     2.628] 	compiled for 1.20.4, module version = 0.0.2
+[     2.628] 	ABI class: X.Org Video Driver, version 24.0
+[     2.628] (EE) Unable to find a valid framebuffer device
+[     2.628] (WW) Falling back to old probe method for fbdev
+[     2.628] (II) Loading sub module "fbdevhw"
+[     2.628] (II) LoadModule: "fbdevhw"
+[     2.628] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     2.628] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     2.628] 	compiled for 1.20.4, module version = 0.0.2
+[     2.628] 	ABI class: X.Org Video Driver, version 24.0
+[     2.628] (II) FBDEV(2): using default device
+[     2.628] (EE) Screen 0 deleted because of no matching config section.
+[     2.628] (II) UnloadModule: "modesetting"
+[     2.628] (EE) Screen 0 deleted because of no matching config section.
+[     2.628] (II) UnloadModule: "fbdev"
+[     2.628] (II) UnloadSubModule: "fbdevhw"
+[     2.629] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 16/16
+[     2.629] (==) FBDEV(0): Depth 16, (==) framebuffer bpp 16
+[     2.629] (==) FBDEV(0): RGB weight 565
+[     2.629] (==) FBDEV(0): Default visual is TrueColor
+[     2.629] (II) FBDEV(0): hardware: VESA VGA (video memory: 1875kB)
+[     2.629] (DB) xf86MergeOutputClassOptions unsupported bus type 0
+[     2.629] (II) FBDEV(0): checking modes against framebuffer device...
+[     2.629] (II) FBDEV(0): checking modes against monitor...
+[     2.629] (II) FBDEV(0): Virtual size is 800x600 (pitch 800)
+[     2.629] (**) FBDEV(0):  Built-in mode "current": 48.0 MHz, 46.9 kHz, 75.1 Hz
+[     2.629] (II) FBDEV(0): Modeline "current"x0.0   48.00  800 832 928 1024  600 604 608 624 -hsync -vsync -csync (46.9 kHz b)
+[     2.629] (==) FBDEV(0): DPI set to (96, 96)
+[     2.629] (II) Loading sub module "fb"
+[     2.629] (II) LoadModule: "fb"
+[     2.629] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     2.629] (II) Module fb: vendor="X.Org Foundation"
+[     2.629] 	compiled for 1.20.4, module version = 1.0.0
+[     2.629] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     2.629] (**) FBDEV(0): using shadow framebuffer
+[     2.629] (II) Loading sub module "shadow"
+[     2.629] (II) LoadModule: "shadow"
+[     2.629] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[     2.629] (II) Module shadow: vendor="X.Org Foundation"
+[     2.629] 	compiled for 1.20.4, module version = 1.1.0
+[     2.629] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     2.629] (II) FBDEV(0): FBIOBLANK: Invalid argument (Screen blanking not supported by kernel - disabling)
+[     2.629] (==) FBDEV(0): Backing store disabled
+[     2.629] (WW) FBDEV(0): The fbdev driver didn't call xf86SetGamma() to initialise
+	the gamma values.
+[     2.629] (WW) FBDEV(0): PLEASE FIX THE `fbdev' DRIVER!
+[     2.629] (==) FBDEV(0): DPMS enabled
+[     2.629] (II) Initializing extension Generic Event Extension
+[     2.629] (II) Initializing extension SHAPE
+[     2.629] (II) Initializing extension MIT-SHM
+[     2.629] (II) Initializing extension XInputExtension
+[     2.629] (II) Initializing extension XTEST
+[     2.629] (II) Initializing extension BIG-REQUESTS
+[     2.629] (II) Initializing extension SYNC
+[     2.629] (II) Initializing extension XKEYBOARD
+[     2.629] (II) Initializing extension XC-MISC
+[     2.629] (II) Initializing extension XFIXES
+[     2.629] (II) Initializing extension RENDER
+[     2.629] (II) Initializing extension RANDR
+[     2.629] (II) Initializing extension DAMAGE
+[     2.629] (II) Initializing extension DOUBLE-BUFFER
+[     2.629] (II) Initializing extension DPMS
+[     2.629] (II) Initializing extension Present
+[     2.629] (II) Initializing extension DRI3
+[     2.629] (II) Initializing extension X-Resource
+[     2.629] (II) Initializing extension XFree86-DGA
+[     2.651] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event2)
+[     2.651] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[     2.651] (II) LoadModule: "evdev"
+[     2.651] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[     2.651] (II) Module evdev: vendor="X.Org Foundation"
+[     2.651] 	compiled for 1.20.1, module version = 2.10.6
+[     2.651] 	Module class: X.Org XInput Driver
+[     2.651] 	ABI class: X.Org XInput driver, version 24.1
+[     2.651] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[     2.651] (**) VirtualBox USB Tablet: always reports core events
+[     2.651] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event2"
+[     2.708] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[     2.708] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[     2.708] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[     2.708] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[     2.708] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[     2.708] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[     2.708] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[     2.708] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[     2.708] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[     2.708] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[     2.708] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     2.708] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input3/event2"
+[     2.708] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 6)
+[     2.708] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[     2.708] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[     2.708] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[     2.708] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[     2.708] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[     2.708] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[     2.709] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[     2.709] (II) No input driver specified, ignoring this device.
+[     2.709] (II) This device may have been added with another device file.
+[     2.709] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[     2.709] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[     2.709] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[     2.709] (**) AT Translated Set 2 keyboard: always reports core events
+[     2.709] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[     2.709] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[     2.709] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[     2.709] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[     2.709] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[     2.709] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[     2.709] (**) Option "xkb_rules" "evdev"
+[     2.710] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event1)
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[     2.710] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[     2.710] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event1"
+[     2.710] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[     2.710] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[     2.710] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[     2.710] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[     2.710] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[     2.710] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[     2.710] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[     2.710] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[     2.710] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     2.710] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event1"
+[     2.710] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[     2.710] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[     2.710] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[     2.710] (II) No input driver specified, ignoring this device.
+[     2.710] (II) This device may have been added with another device file.
+[   121.162] (II) config/udev: removing device VirtualBox USB Tablet
+[   121.167] (II) evdev: VirtualBox USB Tablet: Close
+[   121.167] (II) UnloadModule: "evdev"
+[   121.168] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event2)
+[   121.168] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[   121.168] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[   121.168] (**) VirtualBox USB Tablet: always reports core events
+[   121.168] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event2"
+[   121.224] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[   121.224] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[   121.224] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[   121.224] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[   121.224] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[   121.224] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[   121.224] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[   121.224] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[   121.224] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[   121.224] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[   121.224] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   121.224] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input3/event2"
+[   121.224] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 6)
+[   121.224] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[   121.224] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[   121.224] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[   121.224] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[   121.224] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   121.224] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   121.225] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   121.225] (II) No input driver specified, ignoring this device.
+[   121.225] (II) This device may have been added with another device file.
+[   121.225] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   121.225] (II) evdev: AT Translated Set 2 keyboard: Close
+[   121.225] (II) UnloadModule: "evdev"
+[   121.226] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   121.226] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[   121.226] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   121.226] (**) AT Translated Set 2 keyboard: always reports core events
+[   121.226] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[   121.226] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[   121.226] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[   121.226] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[   121.226] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   121.226] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   121.226] (**) Option "xkb_rules" "evdev"
+[   121.226] (**) Option "xkb_model" "pc105"
+[   121.226] (**) Option "xkb_layout" "us"
+[   121.226] (WW) Option "xkb_variant" requires a string value
+[   121.226] (WW) Option "xkb_options" requires a string value
+[   121.226] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   121.226] (II) No input driver specified, ignoring this device.
+[   121.226] (II) This device may have been added with another device file.
+[   121.227] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   121.227] (II) evdev: ImExPS/2 Generic Explorer Mouse: Close
+[   121.227] (II) UnloadModule: "evdev"
+[   121.227] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event1)
+[   121.227] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[   121.227] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[   121.227] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   121.227] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event1"
+[   121.227] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[   121.227] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[   121.227] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[   121.227] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[   121.227] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[   121.227] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[   121.227] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[   121.227] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[   121.227] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   121.227] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event1"
+[   121.227] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   121.227] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[   121.227] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[   121.227] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[   121.227] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   121.227] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   134.330] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   134.330] (II) No input driver specified, ignoring this device.
+[   134.330] (II) This device may have been added with another device file.
+[   134.341] (II) config/udev: removing device VirtualBox USB Tablet
+[   134.360] (II) evdev: VirtualBox USB Tablet: Close
+[   134.360] (II) UnloadModule: "evdev"
+[   134.361] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event2)
+[   134.361] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[   134.361] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[   134.361] (**) VirtualBox USB Tablet: always reports core events
+[   134.361] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event2"
+[   134.420] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[   134.420] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[   134.420] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[   134.420] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[   134.420] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[   134.420] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[   134.420] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[   134.420] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[   134.420] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[   134.420] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[   134.420] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   134.420] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input3/event2"
+[   134.420] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 6)
+[   134.420] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[   134.420] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[   134.420] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[   134.420] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[   134.420] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   134.420] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   134.421] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   134.421] (II) evdev: AT Translated Set 2 keyboard: Close
+[   134.421] (II) UnloadModule: "evdev"
+[   134.421] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   134.421] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[   134.421] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   134.421] (**) AT Translated Set 2 keyboard: always reports core events
+[   134.421] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[   134.421] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[   134.421] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[   134.421] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[   134.421] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   134.421] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   134.421] (**) Option "xkb_rules" "evdev"
+[   134.421] (**) Option "xkb_model" "pc105"
+[   134.421] (**) Option "xkb_layout" "us"
+[   134.421] (WW) Option "xkb_variant" requires a string value
+[   134.421] (WW) Option "xkb_options" requires a string value
+[   134.421] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   134.421] (II) evdev: ImExPS/2 Generic Explorer Mouse: Close
+[   134.421] (II) UnloadModule: "evdev"
+[   134.422] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event1)
+[   134.422] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[   134.422] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[   134.422] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   134.422] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event1"
+[   134.422] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[   134.422] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[   134.422] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[   134.422] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[   134.422] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[   134.422] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[   134.422] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[   134.422] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[   134.422] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   134.422] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event1"
+[   134.422] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   134.422] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[   134.422] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[   134.422] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[   134.422] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   134.422] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   134.422] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   134.422] (II) No input driver specified, ignoring this device.
+[   134.422] (II) This device may have been added with another device file.
+[   212.979] (II) config/udev: removing device VirtualBox USB Tablet
+[   212.995] (II) evdev: VirtualBox USB Tablet: Close
+[   212.995] (II) UnloadModule: "evdev"
+[   212.995] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event2)
+[   212.995] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[   212.995] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[   212.995] (**) VirtualBox USB Tablet: always reports core events
+[   212.995] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event2"
+[   213.053] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[   213.053] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[   213.053] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[   213.053] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[   213.053] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[   213.053] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[   213.053] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[   213.053] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[   213.053] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[   213.053] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[   213.053] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   213.053] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input3/event2"
+[   213.053] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 6)
+[   213.053] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[   213.053] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[   213.053] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[   213.053] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[   213.053] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   213.053] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   213.053] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   213.053] (II) No input driver specified, ignoring this device.
+[   213.053] (II) This device may have been added with another device file.
+[   213.054] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   213.054] (II) evdev: AT Translated Set 2 keyboard: Close
+[   213.054] (II) UnloadModule: "evdev"
+[   213.054] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   213.054] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[   213.054] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   213.054] (**) AT Translated Set 2 keyboard: always reports core events
+[   213.054] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[   213.054] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[   213.054] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[   213.054] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[   213.054] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   213.054] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   213.054] (**) Option "xkb_rules" "evdev"
+[   213.054] (**) Option "xkb_model" "pc105"
+[   213.054] (**) Option "xkb_layout" "us"
+[   213.054] (WW) Option "xkb_variant" requires a string value
+[   213.054] (WW) Option "xkb_options" requires a string value
+[   213.054] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   213.054] (II) evdev: ImExPS/2 Generic Explorer Mouse: Close
+[   213.054] (II) UnloadModule: "evdev"
+[   213.055] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event1)
+[   213.055] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[   213.055] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[   213.055] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   213.055] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event1"
+[   213.055] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[   213.055] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[   213.055] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[   213.055] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[   213.055] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[   213.055] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[   213.055] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[   213.055] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[   213.055] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   213.055] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event1"
+[   213.055] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   213.055] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[   213.055] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[   213.055] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[   213.055] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   213.055] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   213.055] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   213.055] (II) No input driver specified, ignoring this device.
+[   213.055] (II) This device may have been added with another device file.
+[   751.268] (II) config/udev: removing device VirtualBox USB Tablet
+[   751.277] (II) evdev: VirtualBox USB Tablet: Close
+[   751.277] (II) UnloadModule: "evdev"
+[   751.277] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event2)
+[   751.277] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[   751.277] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[   751.277] (**) VirtualBox USB Tablet: always reports core events
+[   751.277] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event2"
+[   751.337] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[   751.337] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[   751.337] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[   751.337] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[   751.337] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[   751.337] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[   751.337] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[   751.337] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[   751.337] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[   751.337] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[   751.337] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   751.337] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input3/event2"
+[   751.337] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 6)
+[   751.337] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[   751.337] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[   751.337] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[   751.337] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[   751.337] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   751.337] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   751.337] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   751.337] (II) No input driver specified, ignoring this device.
+[   751.337] (II) This device may have been added with another device file.
+[   751.338] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   751.338] (II) evdev: AT Translated Set 2 keyboard: Close
+[   751.338] (II) UnloadModule: "evdev"
+[   751.338] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   751.338] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[   751.338] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   751.338] (**) AT Translated Set 2 keyboard: always reports core events
+[   751.338] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[   751.338] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[   751.338] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[   751.338] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[   751.338] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   751.338] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   751.338] (**) Option "xkb_rules" "evdev"
+[   751.338] (**) Option "xkb_model" "pc105"
+[   751.338] (**) Option "xkb_layout" "us"
+[   751.338] (WW) Option "xkb_variant" requires a string value
+[   751.338] (WW) Option "xkb_options" requires a string value
+[   751.338] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   751.338] (II) evdev: ImExPS/2 Generic Explorer Mouse: Close
+[   751.338] (II) UnloadModule: "evdev"
+[   751.339] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event1)
+[   751.339] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[   751.339] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[   751.339] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   751.339] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event1"
+[   751.339] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[   751.339] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[   751.339] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[   751.339] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[   751.339] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[   751.339] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[   751.339] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[   751.339] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[   751.339] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   751.339] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event1"
+[   751.339] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   751.339] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[   751.339] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[   751.339] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[   751.339] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   751.339] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   751.339] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   751.339] (II) No input driver specified, ignoring this device.
+[   751.339] (II) This device may have been added with another device file.
+[   916.200] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   916.200] (II) No input driver specified, ignoring this device.
+[   916.200] (II) This device may have been added with another device file.
+[   916.201] (II) config/udev: removing device VirtualBox USB Tablet
+[   916.217] (II) evdev: VirtualBox USB Tablet: Close
+[   916.217] (II) UnloadModule: "evdev"
+[   916.217] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event2)
+[   916.217] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[   916.217] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[   916.217] (**) VirtualBox USB Tablet: always reports core events
+[   916.217] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event2"
+[   916.277] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[   916.277] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[   916.277] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[   916.277] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[   916.277] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[   916.277] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[   916.277] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[   916.277] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[   916.277] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[   916.277] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[   916.277] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   916.277] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input3/event2"
+[   916.277] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 6)
+[   916.277] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[   916.277] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[   916.277] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[   916.277] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[   916.277] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   916.277] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   916.277] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   916.277] (II) evdev: AT Translated Set 2 keyboard: Close
+[   916.277] (II) UnloadModule: "evdev"
+[   916.277] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   916.277] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[   916.277] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   916.277] (**) AT Translated Set 2 keyboard: always reports core events
+[   916.277] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[   916.277] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[   916.277] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[   916.277] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[   916.277] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   916.277] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   916.277] (**) Option "xkb_rules" "evdev"
+[   916.277] (**) Option "xkb_model" "pc105"
+[   916.277] (**) Option "xkb_layout" "us"
+[   916.277] (WW) Option "xkb_variant" requires a string value
+[   916.277] (WW) Option "xkb_options" requires a string value
+[   916.278] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   916.278] (II) evdev: ImExPS/2 Generic Explorer Mouse: Close
+[   916.278] (II) UnloadModule: "evdev"
+[   916.278] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event1)
+[   916.278] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[   916.278] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[   916.278] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   916.278] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event1"
+[   916.278] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[   916.278] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[   916.278] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[   916.278] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[   916.278] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[   916.278] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[   916.278] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[   916.278] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[   916.278] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   916.278] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event1"
+[   916.278] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   916.278] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[   916.278] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[   916.278] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[   916.278] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   916.278] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   916.279] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   916.279] (II) No input driver specified, ignoring this device.
+[   916.279] (II) This device may have been added with another device file.

@@ -1,0 +1,836 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gutenprint
+Upstream-Contact: gimp-print-devel@lists.sourceforge.net
+Source: https://sourceforge.net/projects/gimp-print/files/
+
+Files: *
+Copyright:
+ Andreas Kemnade <akemnade@tzi.de>
+ Andy Stewart <andystewart@attbi.com>
+ Andy Thaller <thaller@ph.tum.de>
+ Charles Briscoe-Smith <cpbs@debian.org>
+ Dave Hill <dave@minnie.demon.co.uk>
+ David Pace <dpace@echo-on.net>
+ Eric Sharkey <sharkey@ale.physics.sunysb.edu>
+ Eugene Anikin <eugene@anikin.com>
+ Gernot Hassenpflug <aikishugyo@gmail.com>
+ Grant Taylor <gtaylor@picante.com>
+ Henryk "Buggs" Richter <tfa652@cks1.rz.uni-rostock.de>
+ Ian Young <ian@iay.org.uk>
+ Jean-Marc Verbavatz <verbavatz@ifrance.fr>
+ John Labovitz <johnl@johnlabovitz.com>
+ Karl Heinz Kremer <khk@khk.net>
+ Karsten Festag <karsten.festag@gmx.de>
+ Matthew Broughton <walterwego@macosx.com>
+ Mark Tomlinson <mark.tomlinson@xtra.co.nz>
+ Michael Mraka <michael.mraka@linux.cz>
+ Michael Natterer <mitschel@cs.tu-berlin.de>
+ Mike Sweet <mike@easysw.com>
+ Peter Missel <peter.missel@eplus-online.de>
+ Piotr Stachura <albert1@autocom.pl>
+ Richard Wisenoecker <Richard.Wisenoecker@gmx.at>
+ Robert Krawitz <rlk@alum.mit.edu>
+ Roger Leigh <rleigh@debian.org>
+ Sascha Sommer <saschasommer@freenet.de>
+ Solomon Peachy <pizza@shaftnet.org>
+ Steve Kann <stevek@stevek.com>
+ Steve Letter <sletter1@yahoo.com>
+ Steve Miller <smiller@rni.net>
+ Thomas Tonino <ttonino@bio.vu.nl>
+ Till Kamppeter <till.kamppeter@gmail.com>
+License: GPL-2+
+
+Files: INSTALL
+Copyright: 1994-1996, 1999-2002, 2004-2016, Free Software
+License: FSFAP
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.  This file is offered as-is,
+ without warranty of any kind.
+
+Files: Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: aclocal.m4
+Copyright: 1996-2018, Free Software Foundation, Inc.
+License: GPL
+ This file is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+Files: configure
+Copyright: 1992-1996, 1998-2012, Free Software Foundation, Inc.
+License: FSFUL
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+Files: debian/missing-sources/*
+Copyright: 2011, John Resig
+License: GPL-2+
+
+Files: doc/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: doc/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: doc/developer/Makefile.am
+Copyright: 2001, Andy Stewart and Roger Leigh
+License: GPL-2+
+
+Files: doc/developer/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: doc/gutenprint/*
+Copyright: 1997-2017, Dimitri van Heesch
+License: GPL-2+
+
+Files: doc/gutenprint/html/doxygen.css
+  doc/gutenprint/html/tabs.css
+Copyright:
+ Andreas Kemnade <akemnade@tzi.de>
+ Andy Stewart <andystewart@attbi.com>
+ Andy Thaller <thaller@ph.tum.de>
+ Charles Briscoe-Smith <cpbs@debian.org>
+ Dave Hill <dave@minnie.demon.co.uk>
+ David Pace <dpace@echo-on.net>
+ Eric Sharkey <sharkey@ale.physics.sunysb.edu>
+ Eugene Anikin <eugene@anikin.com>
+ Gernot Hassenpflug <aikishugyo@gmail.com>
+ Grant Taylor <gtaylor@picante.com>
+ Henryk "Buggs" Richter <tfa652@cks1.rz.uni-rostock.de>
+ Ian Young <ian@iay.org.uk>
+ Jean-Marc Verbavatz <verbavatz@ifrance.fr>
+ John Labovitz <johnl@johnlabovitz.com>
+ Karl Heinz Kremer <khk@khk.net>
+ Karsten Festag <karsten.festag@gmx.de>
+ Matthew Broughton <walterwego@macosx.com>
+ Mark Tomlinson <mark.tomlinson@xtra.co.nz>
+ Michael Mraka <michael.mraka@linux.cz>
+ Michael Natterer <mitschel@cs.tu-berlin.de>
+ Mike Sweet <mike@easysw.com>
+ Peter Missel <peter.missel@eplus-online.de>
+ Piotr Stachura <albert1@autocom.pl>
+ Richard Wisenoecker <Richard.Wisenoecker@gmx.at>
+ Robert Krawitz <rlk@alum.mit.edu>
+ Roger Leigh <rleigh@debian.org>
+ Sascha Sommer <saschasommer@freenet.de>
+ Solomon Peachy <pizza@shaftnet.org>
+ Steve Kann <stevek@stevek.com>
+ Steve Letter <sletter1@yahoo.com>
+ Steve Miller <smiller@rni.net>
+ Thomas Tonino <ttonino@bio.vu.nl>
+ Till Kamppeter <till.kamppeter@gmail.com>
+License: GPL-2+
+
+Files: doc/gutenprint/html/jquery.js
+Copyright: 1997-2017, Dimitri van Heesch
+License: Expat
+
+Files: doc/gutenprintui2/*
+Copyright: 1997-2017, Dimitri van Heesch
+License: GPL-2+
+
+Files: doc/gutenprintui2/html/doxygen.css
+  doc/gutenprintui2/html/tabs.css
+Copyright:
+ Andreas Kemnade <akemnade@tzi.de>
+ Andy Stewart <andystewart@attbi.com>
+ Andy Thaller <thaller@ph.tum.de>
+ Charles Briscoe-Smith <cpbs@debian.org>
+ Dave Hill <dave@minnie.demon.co.uk>
+ David Pace <dpace@echo-on.net>
+ Eric Sharkey <sharkey@ale.physics.sunysb.edu>
+ Eugene Anikin <eugene@anikin.com>
+ Gernot Hassenpflug <aikishugyo@gmail.com>
+ Grant Taylor <gtaylor@picante.com>
+ Henryk "Buggs" Richter <tfa652@cks1.rz.uni-rostock.de>
+ Ian Young <ian@iay.org.uk>
+ Jean-Marc Verbavatz <verbavatz@ifrance.fr>
+ John Labovitz <johnl@johnlabovitz.com>
+ Karl Heinz Kremer <khk@khk.net>
+ Karsten Festag <karsten.festag@gmx.de>
+ Matthew Broughton <walterwego@macosx.com>
+ Mark Tomlinson <mark.tomlinson@xtra.co.nz>
+ Michael Mraka <michael.mraka@linux.cz>
+ Michael Natterer <mitschel@cs.tu-berlin.de>
+ Mike Sweet <mike@easysw.com>
+ Peter Missel <peter.missel@eplus-online.de>
+ Piotr Stachura <albert1@autocom.pl>
+ Richard Wisenoecker <Richard.Wisenoecker@gmx.at>
+ Robert Krawitz <rlk@alum.mit.edu>
+ Roger Leigh <rleigh@debian.org>
+ Sascha Sommer <saschasommer@freenet.de>
+ Solomon Peachy <pizza@shaftnet.org>
+ Steve Kann <stevek@stevek.com>
+ Steve Letter <sletter1@yahoo.com>
+ Steve Miller <smiller@rni.net>
+ Thomas Tonino <ttonino@bio.vu.nl>
+ Till Kamppeter <till.kamppeter@gmail.com>
+License: GPL-2+
+
+Files: doc/gutenprintui2/html/jquery.js
+Copyright: 1997-2017, Dimitri van Heesch
+License: Expat
+
+Files: include/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: include/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: include/gutenprint/*
+Copyright: 1997-2003, Michael Sweet (mike@easysw.com) and
+License: GPL-2+
+
+Files: include/gutenprint/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: include/gutenprint/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: include/gutenprint/array.h
+  include/gutenprint/sequence.h
+Copyright: 2002, 2003, Roger Leigh (rleigh@debian.org)
+License: GPL-2+
+
+Files: include/gutenprint/bit-ops.h
+Copyright: 2000, Charles Briscoe-Smith <cpbs@debian.org>
+License: GPL-2+
+
+Files: include/gutenprint/gutenprint-intl-internal.h
+  include/gutenprint/gutenprint-intl.h
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: include/gutenprint/gutenprint-version.h.in
+  include/gutenprint/refcache.h
+  include/gutenprint/types.h
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: include/gutenprint/list.h
+  include/gutenprint/module.h
+  include/gutenprint/path.h
+  include/gutenprint/xml.h
+Copyright: 2002, 2003, Roger Leigh (rleigh@debian.org)
+  1997-2002, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: include/gutenprint/mxml.h
+Copyright: 2003, Michael Sweet.
+License: LGPL-2+
+
+Files: include/gutenprintui2/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: include/gutenprintui2/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: include/gutenprintui2/curve.h
+Copyright: 1995-1997, Peter Mattis, Spencer Kimball and Josh MacDonald
+License: LGPL-2+
+
+Files: include/gutenprintui2/gammacurve.h
+Copyright: 1997, David Mosberger
+License: LGPL-2+
+
+Files: include/gutenprintui2/gutenprintui.h
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: m4/*
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: m4/glibc2.m4
+  m4/glibc21.m4
+  m4/lcmessage.m4
+  m4/libtool.m4
+Copyright: 1995-2002, 2004, 2005, 2008-2014, Free Software Foundation
+License: GPL-2+
+
+Files: m4/ltoptions.m4
+  m4/ltsugar.m4
+  m4/lt~obsolete.m4
+  m4/nls.m4
+Copyright: 1995-2016, Free Software
+License: GPL-2+
+
+Files: m4/stp.m4
+  m4/stp_cups.m4
+  m4/stp_option.m4
+  m4/stp_release.m4
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: m4extra/*
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: m4extra/glib.m4
+  m4extra/gtk.m4
+Copyright: Owen Taylor 97-11-3
+License: GPL-2+
+
+Files: m4extra/pkg.m4
+Copyright: 2004, Scott James Remnant <scott@netsplit.com>.
+License: GPL-2+
+
+Files: m4extra/stp_release.m4.in
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: man/*
+Copyright: 2000-2004, Roger Leigh <rleigh@debian.org>
+License: GPL-2+
+
+Files: man/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: man/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: man/cups-calibrate.8.in
+Copyright: 2000-2004, Roger Leigh <rleigh@debian.org>
+License: GPL-2
+
+Files: man/escputil.1.in
+Copyright: 2000-2008, 2014, Robert Krawitz <rlk@alum.mit.edu>
+License: GPL-2+
+
+Files: po/Makefile.in.in
+Copyright: 1995-1997, 2000-2006, Ulrich Drepper <drepper@gnu.ai.mit.edu>
+License: public-domain
+ This file can be copied and used freely without restrictions.  It can
+ be used in projects which are not available under the GNU General Public
+ License but which still want to provide support for the GNU gettext
+ functionality.
+
+Files: po/Makevars
+Copyright: for their translations to this person
+License: GPL-2+
+
+Files: po/POTFILES.in
+Copyright: 2000, Roger Leigh
+License: GPL-2+
+
+Files: samples/*
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: samples/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: scripts/*
+Copyright: 1996-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: scripts/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: scripts/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: scripts/autogen.sh
+Copyright: 1989, 1991, 1994-2013, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: scripts/gversion
+  scripts/gversion.in
+  scripts/test-gversion.in
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: scripts/mkgitlog
+  scripts/mkgitlog.in
+  scripts/wzpaq
+  scripts/wzpaq.in
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/*
+Copyright: 1997-2003, Michael Sweet (mike@easysw.com) and
+License: GPL-2+
+
+Files: src/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/cups/*
+Copyright: 2007-2018, Solomon Peachy <pizza@shaftnet.org>
+License: GPL-2+
+
+Files: src/cups/Info.plist.in
+Copyright: 1993-2008, Mike Sweet and Robert Krawitz</string>
+License: GPL-2+
+
+Files: src/cups/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/cups/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/cups/blacklist
+  src/cups/commandtocanon.c
+Copyright: 2007-2017, Solomon Peachy <pizza@shaftnet.org>
+License: GPL-2+
+
+Files: src/cups/commandtoepson.c
+  src/cups/cups-calibrate.c
+Copyright: 1993-2000, Easy Software Products.
+License: GPL-2+
+
+Files: src/cups/cups-genppd.c
+  src/cups/genppd.c
+  src/cups/genppd.h
+  src/cups/gutenprint.c
+Copyright: 1993-2008, Mike Sweet and Robert Krawitz.
+License: GPL-2+
+
+Files: src/cups/cups-genppdupdate.in
+Copyright: 2002, 2003, Roger Leigh (rleigh@debian.org)
+License: GPL-2+
+
+Files: src/cups/i18n.c
+  src/cups/i18n.h
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/cups/min-pagesize.in
+  src/cups/test-ppds.in
+  src/cups/test-rastertogutenprint.check.in
+  src/cups/test-rastertogutenprint.in
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/cups/rastertogutenprint.c
+Copyright: 1993-2008, Mike Sweet.
+License: GPL-2+
+
+Files: src/escputil/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/escputil/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/escputil/d4lib.c
+Copyright: 2001, Jean-Jacques Sarton jj.sarton@t-online.de
+License: GPL-2+
+
+Files: src/escputil/escputil.c
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/gimp2/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/gimp2/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/gimp2/print-image-gimp.c
+Copyright: 2000, Charles Briscoe-Smith <cpbs@debian.org>
+  1997-2000, Michael Sweet (mike@easysw.com) and
+License: GPL-2+
+
+Files: src/gimp2/print-intl.h
+  src/gimp2/print_gimp.h
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/gutenprintui2/*
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/gutenprintui2/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/gutenprintui2/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/gutenprintui2/curve.c
+  src/gutenprintui2/gammacurve.c
+Copyright: 1997, David Mosberger
+License: LGPL-2+
+
+Files: src/gutenprintui2/plist.c
+Copyright: 1997-2003, Michael Sweet (mike@easysw.com) and
+License: GPL-2+
+
+Files: src/gutenprintui2/print-image-thumbnail.c
+Copyright: 2000, Charles Briscoe-Smith <cpbs@debian.org>
+  1997-2000, Michael Sweet (mike@easysw.com) and
+License: GPL-2+
+
+Files: src/gutenprintui2/printrcy.c
+  src/gutenprintui2/printrcy.h
+Copyright: 1984, 1989, 1990, 2000-2015, Free Software Foundation, Inc.
+License: GPL-3+
+
+Files: src/main/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/main/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/main/array.c
+  src/main/sequence.c
+Copyright: 2003, Roger Leigh (rleigh@debian.org)
+  2002, 2003, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/main/bit-ops.c
+  src/main/print-weave.c
+Copyright: 2000, Charles Briscoe-Smith <cpbs@debian.org>
+License: GPL-2+
+
+Files: src/main/buffer-image.c
+Copyright: 2007, Sascha Sommer <saschasommer@freenet.de>
+License: GPL-2+
+
+Files: src/main/canon-inks.h
+  src/main/canon-media-mode.h
+  src/main/canon-media.h
+  src/main/canon-modes.h
+  src/main/canon-printers.h
+  src/main/print-canon.c
+Copyright: 2006, 2007, Sascha Sommer (saschasommer@freenet.de)
+  1997-2000, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/main/channel.c
+  src/main/generic-options.c
+  src/main/generic-options.h
+  src/main/print-dither-matrices.c
+  src/main/refcache.c
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/main/color.c
+  src/main/module.c
+  src/main/path.c
+  src/main/print-list.c
+  src/main/xml.c
+Copyright: 2002, 2003, Roger Leigh (rleigh@debian.org)
+License: GPL-2+
+
+Files: src/main/dither-eventone.c
+Copyright: 2002, 2003, Mark Tomlinson (mark@southern.co.nz)
+License: GPL-2+
+
+Files: src/main/escp2-papers.c
+Copyright: 1997-2000, Michael Sweet (mike@easysw.com) and
+License: GPL-2+
+
+Files: src/main/gutenprint.pc.in
+Copyright: no-info-found
+License: GPL-2+
+
+Files: src/main/mxml-attr.c
+  src/main/mxml-file.c
+  src/main/mxml-node.c
+  src/main/mxml-search.c
+Copyright: 2003, Michael Sweet.
+License: LGPL-2+
+
+Files: src/main/print-canon.h
+Copyright: 2006, Sascha Sommer
+  1997-2000, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/main/print-dpl.c
+Copyright: 2016, Steve Letter (sletter1@yahoo.com)
+  1997-2000, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/main/print-dyesub.c
+Copyright: 2007-2018, Solomon Peachy (pizza@shaftnet.org)
+  2003-2006, Michael Mraka (Michael.Mraka@linux.cz)
+License: GPL-2+
+
+Files: src/main/print-lexmark.c
+Copyright: 2000, Richard Wisenoecker (richard.wisenoecker@gmx.at) and
+License: GPL-2+
+
+Files: src/main/print-pcl.c
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: src/main/xmlppd.c
+  src/main/xmlppd.h
+Copyright: 2007, Michael R Sweet and Robert Krawitz
+License: GPL-2+
+
+Files: src/testpattern/*
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/testpattern/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: src/testpattern/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/testpattern/compare-checksums.in
+  src/testpattern/compress-checksums.in
+  src/testpattern/run-testpattern-2.check.in
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/testpattern/run-testpattern-1.in
+  src/testpattern/run-testpattern-2.in
+Copyright: 2004-2017, Robert Krawitz (rlk@alum.mit.edu) and other
+License: GPL-2+
+
+Files: src/testpattern/testpattern.c
+  src/testpattern/testpattern.h
+Copyright: 2000-2008, 2014, Robert Krawitz <rlk@alum.mit.edu>
+License: GPL-2+
+
+Files: src/testpattern/testpatternl.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: src/testpattern/testpatterny.c
+  src/testpattern/testpatterny.h
+Copyright: 1984, 1989, 1990, 2000-2015, Free Software Foundation, Inc.
+License: GPL-3+
+
+Files: src/xml/*
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/xml/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/dither/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/inks/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/inputslots/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/media/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/mediasizes/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/model/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/model/base/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/qualitypresets/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/resolutions/Makefile.am
+Copyright: 2017, Krawitz
+License: GPL-2+
+
+Files: src/xml/escp2/weaves/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/extract-strings.c
+Copyright: 2008, Robert Krawitz.
+License: GPL-2+
+
+Files: src/xml/papers/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/printers/*
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: src/xml/printers/Makefile.am
+Copyright: 2008, 2016-2018, Robert Krawitz
+License: GPL-2+
+
+Files: src/xml/printers/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/xml/xmli18n-tmp.h
+Copyright: 1989, 1991, 1994-2013, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: test/*
+Copyright: 1999-2003, 2007-2017, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: test/Makefile.am
+Copyright: 2000-2004, Roger Leigh
+License: GPL-2+
+
+Files: test/Makefile.in
+Copyright: 1989, 1991, 1994-2018, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: test/bjc-unprint.c
+Copyright: 2001, Andy Thaller <thaller@ph.tum.de>
+License: GPL-2+
+
+Files: test/curve.c
+  test/escp2-weavetest.c
+  test/run-testdither.in
+  test/test-curve.in
+  test/xml-curve.c
+Copyright: 1999-2018, Robert Krawitz (rlk@alum.mit.edu)
+License: GPL-2+
+
+Files: test/gen-printer-list.c
+  test/parse-escp2.in
+Copyright: 2000-2008, 2014, Robert Krawitz <rlk@alum.mit.edu>
+License: GPL-2+
+
+Files: test/pcl-unprint.c
+Copyright: 2000, Dave Hill (dave@minnie.demon.co.uk)
+License: GPL-2+
+
+Files: test/pixma_parse.c
+  test/pixma_parse.h
+Copyright: 2005-2007, Sascha Sommer <saschasommer@freenet.de>.
+License: GPL-2+
+
+Files: test/testdither.c
+Copyright: 1997-2008, Michael Sweet (mike@easysw.com)
+License: GPL-2+
+
+Files: test/unprint.c
+Copyright: 2000, 2001, Eric Sharkey <sharkey@superk.physics.sunysb.edu>
+License: GPL-2+
+
+License: Expat
+ This software is Copyright (c) 2018 by foo.
+ .
+ This is free software, licensed under:
+ .
+   The MIT (X11) License
+ .
+ The MIT License
+ .
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated
+ documentation files (the "Software"), to deal in the Software
+ without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to
+ whom the Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright notice and this permission notice shall
+ be included in all copies or substantial portions of the
+ Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR
+ PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+ SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991.
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 dated June, 2007, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by the
+ Free Software Foundation; version 2 of the License, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2 of the GNU Library
+ General Public License can be found in `/usr/share/common-licenses/LGPL-2'.

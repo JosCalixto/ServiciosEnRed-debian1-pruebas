@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/ienglish-common
+/usr/share/doc/ienglish-common/NEWS.Debian.gz
+/usr/share/doc/ienglish-common/changelog.Debian.gz
+/usr/share/doc/ienglish-common/changelog.gz
+/usr/share/doc/ienglish-common/copyright
+/usr/share/ispell
+/usr/share/ispell/english.aff

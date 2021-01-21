@@ -1,0 +1,9 @@
+# This is private data. Do not parse
+PRIORITY=30
+LEVEL_PREFIX=1
+FORWARD_TO_SYSLOG=0
+FORWARD_TO_KMSG=0
+FORWARD_TO_CONSOLE=0
+STREAM_ID=c54f0d3ffb6b4b1099a89e3fa65cdf27
+IDENTIFIER=cups-browsed
+UNIT=cups-browsed.service

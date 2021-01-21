@@ -1,0 +1,39 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pysimplesoap
+Source: https://github.com/pysimplesoap/pysimplesoap
+
+Files: *
+Copyright: Copyright (C) 2013 Mariano Reingart
+License: LGPL-3
+
+Files: debian/*
+Copyright: 2015-2018 Sandro Tosi <morph@debian.org>
+License: LGPL-3
+
+License: LGPL-3
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
+
+Files: pysimplesoap/c14n.py
+Copyright: Copyright 2001, Zolera Systems Inc.  All Rights Reserved.
+ Copyright 2001, MIT. All Rights Reserved.
+License: Python-2.0
+ http://www.python.org/2.0.1/license.html
+ or
+ W3C Software License
+ http://www.w3.org/Consortium/Legal/copyright-software-19980720
+
+Files: samples/wsaa_py.py
+Copyright: Copyright (C) 2008-2011 Mariano Reingart
+License: GPL-3+
+
+Files: tests/afip_test.py tests/cfdi_mx_test.py tests/nfp_br_test.py tests/sri_ec_test.py
+License: GPL-3+
+
+Files: tests/trazamed_test.py
+Copyright: Copyright (C) 2011 Mariano Reingart
+License: GPL-3+
+
+License: GPL-3+
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

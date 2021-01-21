@@ -1,0 +1,4 @@
+/etc/dhcp/dhcpd.conf
+/etc/dhcp/dhcpd6.conf
+/etc/init.d/isc-dhcp-server
+/etc/logcheck/ignore.d.server/isc-dhcp-server

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/ispell
+/usr/share
+/usr/share/doc
+/usr/share/ispell
+/usr/share/ispell/american.med+.mwl.gz
+/var
+/var/lib
+/var/lib/dictionaries-common
+/var/lib/dictionaries-common/ispell
+/var/lib/dictionaries-common/ispell/iamerican
+/usr/lib/ispell/american.aff
+/usr/share/doc/iamerican
+/usr/share/ispell/american.mwl.gz

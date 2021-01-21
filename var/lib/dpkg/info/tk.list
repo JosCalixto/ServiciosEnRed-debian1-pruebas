@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/bin
+/usr/share
+/usr/share/doc
+/usr/share/doc/tk
+/usr/share/doc/tk/README.Debian
+/usr/share/doc/tk/changelog.gz
+/usr/share/doc/tk/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/man
+/usr/share/man/man1
+/usr/bin/wish
+/usr/share/man/man1/wish.1.gz

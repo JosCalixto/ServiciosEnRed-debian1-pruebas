@@ -1,0 +1,4 @@
+/etc/pam.d/polkit-1
+/etc/polkit-1/localauthority.conf.d/50-localauthority.conf
+/etc/polkit-1/localauthority.conf.d/51-debian-sudo.conf
+/etc/polkit-1/nullbackend.conf.d/50-nullbackend.conf

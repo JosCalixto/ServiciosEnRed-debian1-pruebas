@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: reportbug
+Version: 7.5.3-deb10u1
+Summary: bug reporting tool
+Home-page: https://salsa.debian.org/reportbug-team/reportbug
+Author: reportbug maintenance team
+Author-email: debian-reportbug@lists.debian.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,37 @@
+Missing / TODO:
+
+- The character table for Ventura Math is probably not correct
+
+- rearrange PCL font downloads in the middle of pages so that CaPSL doesn't
+  eject the page in panic
+
+- better page stuff handling ( sizes and such )
+
+- PCL 5 text attribute stuff - ESC (s # S
+
+- Macro and overlay stuff 
+
+- HPGL support (some time)
+
+- some sort of init file to set cassette paper size, default font, font 
+  catridges etc.
+
+What won't work :
+
+- some PCL files (e.g. at least one file created by the Ljet3p driver
+  in Windoze 3.1) download single characters in the middle of the page;
+  CaPSL will eject the current page at that point
+
+- Newer LaserJet models have more internal scalable fonts, the selection
+  of which will be at best ignored.
+
+- Reverse portrait / reverse landscape printing - ESC &l # O and ESC &a # P
+
+- Some lesser known or obsolete symbol sets or sets supplied with external
+  cartridges (which ones are obsolete ?) will not print correctly.
+
+- download symbol sets - ESC*c # R, ESC*c # S, ESC (t or (f # W (?)
+  (neither PCL nor CaPSL manuals available)
+
+- PCL 5 transparency mode pattern stuff (Is it useful ? Does anybody use it ?)
+

@@ -1,0 +1,20 @@
+# This is private data. Do not parse.
+UID=1000
+USER=usuario
+ACTIVE=1
+IS_DISPLAY=1
+STATE=active
+REMOTE=0
+TYPE=tty
+CLASS=user
+SCOPE=session-1.scope
+FIFO=/run/systemd/sessions/1.ref
+SEAT=seat0
+TTY=tty1
+TTY_VALIDITY=from-pam
+SERVICE=login
+VTNR=1
+LEADER=524
+AUDIT=1
+REALTIME=1611217256910716
+MONOTONIC=44319902

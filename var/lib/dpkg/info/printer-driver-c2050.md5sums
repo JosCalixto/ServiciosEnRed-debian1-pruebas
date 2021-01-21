@@ -1,0 +1,7 @@
+4598e399d4e3fa90dad36a53df2f4a37  usr/bin/c2050
+adbadeb5f9af7c3321ca726d6f06dd11  usr/bin/ps2lexmark
+bc2f837b9a5bb7ac2562a2030b22848a  usr/share/doc/printer-driver-c2050/README
+2af26dde94b34bdfb8e20b2b09cce709  usr/share/doc/printer-driver-c2050/changelog.Debian.gz
+74d7df6eb0727d9fb8beb9f1f09a7997  usr/share/doc/printer-driver-c2050/copyright
+cb82216735bbf4f36ac00ca5d8547acd  usr/share/man/man1/c2050.1.gz
+8271e2e10f47e4903e3c9bd3d9340133  usr/share/man/man1/ps2lexmark.1.gz

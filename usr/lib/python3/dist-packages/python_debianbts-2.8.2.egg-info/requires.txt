@@ -1,0 +1,8 @@
+
+[dev]
+flake8
+pytest
+pytest-cov
+
+[dev:python_version < "3.0"]
+mock

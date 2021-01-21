@@ -1,0 +1,9 @@
+# This is private data. Do not parse
+PRIORITY=30
+LEVEL_PREFIX=1
+FORWARD_TO_SYSLOG=0
+FORWARD_TO_KMSG=0
+FORWARD_TO_CONSOLE=0
+STREAM_ID=e38c544b9e5042e6a80e2f4d1560d60c
+IDENTIFIER=avahi-daemon
+UNIT=avahi-daemon.service

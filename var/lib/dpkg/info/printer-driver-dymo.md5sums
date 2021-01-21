@@ -1,0 +1,7 @@
+b56800b31e74c3d40235b53de43b725b  usr/lib/cups/driver/dymo
+12938a266ea78cde80446cc8fa61c7e2  usr/lib/cups/filter/raster2dymolm
+9976bedf1816a084d9b5e020d06176f9  usr/lib/cups/filter/raster2dymolw
+271055a9de00bf242c7863f30750e446  usr/share/cups/ppd-updaters/printer-driver-dymo.ppd-updater
+cf2776d86f1b01fae93661fb08634dce  usr/share/doc/printer-driver-dymo/changelog.Debian.gz
+8b1aef98f9d94890896e65dfc24074ac  usr/share/doc/printer-driver-dymo/changelog.gz
+5fe882df3f5ba56c3b36a20dd09ae904  usr/share/doc/printer-driver-dymo/copyright

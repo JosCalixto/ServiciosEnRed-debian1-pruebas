@@ -1,0 +1,330 @@
+Jan 21 03:20:36 debian rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="343" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 21 03:20:36 debian systemd[1]: logrotate.service: Succeeded.
+Jan 21 03:20:36 debian systemd[1]: Started Rotate log files.
+Jan 21 03:20:38 debian dhclient[390]: Internet Systems Consortium DHCP Client 4.4.1
+Jan 21 03:20:38 debian ifup[357]: Internet Systems Consortium DHCP Client 4.4.1
+Jan 21 03:20:38 debian ifup[357]: Copyright 2004-2018 Internet Systems Consortium.
+Jan 21 03:20:38 debian ifup[357]: All rights reserved.
+Jan 21 03:20:38 debian ifup[357]: For info, please visit https://www.isc.org/software/dhcp/
+Jan 21 03:20:38 debian dhclient[390]: Copyright 2004-2018 Internet Systems Consortium.
+Jan 21 03:20:38 debian dhclient[390]: All rights reserved.
+Jan 21 03:20:38 debian dhclient[390]: For info, please visit https://www.isc.org/software/dhcp/
+Jan 21 03:20:38 debian dhclient[390]: 
+Jan 21 03:20:38 debian kernel: [   27.182492] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Jan 21 03:20:38 debian kernel: [   27.192322] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 21 03:20:38 debian kernel: [   27.192820] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Jan 21 03:20:38 debian dhclient[390]: Listening on LPF/enp0s3/08:00:27:b3:95:26
+Jan 21 03:20:38 debian ifup[357]: Listening on LPF/enp0s3/08:00:27:b3:95:26
+Jan 21 03:20:38 debian ifup[357]: Sending on   LPF/enp0s3/08:00:27:b3:95:26
+Jan 21 03:20:38 debian ifup[357]: Sending on   Socket/fallback
+Jan 21 03:20:38 debian ifup[357]: DHCPREQUEST for 10.0.2.15 on enp0s3 to 255.255.255.255 port 67
+Jan 21 03:20:38 debian dhclient[390]: Sending on   LPF/enp0s3/08:00:27:b3:95:26
+Jan 21 03:20:38 debian dhclient[390]: Sending on   Socket/fallback
+Jan 21 03:20:38 debian dhclient[390]: DHCPREQUEST for 10.0.2.15 on enp0s3 to 255.255.255.255 port 67
+Jan 21 03:20:39 debian dhclient[390]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Jan 21 03:20:39 debian ifup[357]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Jan 21 03:20:39 debian avahi-daemon[346]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Jan 21 03:20:39 debian avahi-daemon[346]: New relevant interface enp0s3.IPv4 for mDNS.
+Jan 21 03:20:39 debian avahi-daemon[346]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Jan 21 03:20:39 debian dhclient[390]: bound to 10.0.2.15 -- renewal in 41061 seconds.
+Jan 21 03:20:39 debian ifup[357]: bound to 10.0.2.15 -- renewal in 41061 seconds.
+Jan 21 03:20:40 debian avahi-daemon[346]: Joining mDNS multicast group on interface enp0s8.IPv4 with address 192.168.81.10.
+Jan 21 03:20:40 debian avahi-daemon[346]: New relevant interface enp0s8.IPv4 for mDNS.
+Jan 21 03:20:40 debian avahi-daemon[346]: Registering new address record for 192.168.81.10 on enp0s8.IPv4.
+Jan 21 03:20:40 debian kernel: [   28.581232] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Jan 21 03:20:40 debian kernel: [   28.586963] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 21 03:20:40 debian kernel: [   28.587403] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Jan 21 03:20:40 debian avahi-daemon[346]: Joining mDNS multicast group on interface enp0s9.IPv4 with address 192.168.82.10.
+Jan 21 03:20:40 debian avahi-daemon[346]: New relevant interface enp0s9.IPv4 for mDNS.
+Jan 21 03:20:40 debian avahi-daemon[346]: Registering new address record for 192.168.82.10 on enp0s9.IPv4.
+Jan 21 03:20:40 debian kernel: [   29.020012] IPv6: ADDRCONF(NETDEV_UP): enp0s9: link is not ready
+Jan 21 03:20:40 debian kernel: [   29.026885] e1000: enp0s9 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 21 03:20:40 debian kernel: [   29.027135] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s9: link becomes ready
+Jan 21 03:20:40 debian avahi-daemon[346]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:feb3:9526.
+Jan 21 03:20:40 debian avahi-daemon[346]: New relevant interface enp0s3.IPv6 for mDNS.
+Jan 21 03:20:40 debian avahi-daemon[346]: Registering new address record for fe80::a00:27ff:feb3:9526 on enp0s3.*.
+Jan 21 03:20:40 debian systemd[1]: Started Raise network interfaces.
+Jan 21 03:20:40 debian systemd[1]: Reached target Network.
+Jan 21 03:20:40 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 21 03:20:40 debian systemd[1]: Starting Permit User Sessions...
+Jan 21 03:20:40 debian systemd[1]: Starting BIND Domain Name Server...
+Jan 21 03:20:40 debian systemd[1]: Reached target Network is Online.
+Jan 21 03:20:40 debian systemd[1]: Starting Daily apt download activities...
+Jan 21 03:20:40 debian systemd[1]: Started Permit User Sessions.
+Jan 21 03:20:40 debian systemd[1]: Started Getty on tty1.
+Jan 21 03:20:40 debian systemd[1]: Reached target Login Prompts.
+Jan 21 03:20:40 debian named[525]: starting BIND 9.11.5-P4-5.1+deb10u2-Debian (Extended Support Version) <id:998753c>
+Jan 21 03:20:40 debian named[525]: running on Linux x86_64 4.19.0-13-amd64 #1 SMP Debian 4.19.160-2 (2020-11-28)
+Jan 21 03:20:40 debian named[525]: built with '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=/usr/include' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-silent-rules' '--libdir=/usr/lib/x86_64-linux-gnu' '--libexecdir=/usr/lib/x86_64-linux-gnu' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-libidn2' '--with-libjson=/usr' '--with-lmdb=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/softhsm/libsofthsm2.so' '--with-randomdev=/dev/urandom' '--enable-dnstap' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/bind9-pbRECD/bind9-9.11.5.P4+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
+Jan 21 03:20:40 debian named[525]: running as: named -u bind
+Jan 21 03:20:40 debian named[525]: compiled by GCC 8.3.0
+Jan 21 03:20:40 debian named[525]: compiled with OpenSSL version: OpenSSL 1.1.1d  10 Sep 2019
+Jan 21 03:20:40 debian named[525]: linked to OpenSSL version: OpenSSL 1.1.1d  10 Sep 2019
+Jan 21 03:20:40 debian named[525]: compiled with libxml2 version: 2.9.4
+Jan 21 03:20:40 debian named[525]: linked to libxml2 version: 20904
+Jan 21 03:20:40 debian named[525]: compiled with libjson-c version: 0.12.1
+Jan 21 03:20:40 debian named[525]: linked to libjson-c version: 0.12.1
+Jan 21 03:20:40 debian named[525]: threads support is enabled
+Jan 21 03:20:40 debian named[525]: ----------------------------------------------------
+Jan 21 03:20:40 debian named[525]: BIND 9 is maintained by Internet Systems Consortium,
+Jan 21 03:20:40 debian named[525]: Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+Jan 21 03:20:40 debian named[525]: corporation.  Support and training for BIND 9 are 
+Jan 21 03:20:40 debian named[525]: available at https://www.isc.org/support
+Jan 21 03:20:40 debian named[525]: ----------------------------------------------------
+Jan 21 03:20:40 debian named[525]: adjusted limit on open files from 524288 to 1048576
+Jan 21 03:20:40 debian named[525]: found 1 CPU, using 1 worker thread
+Jan 21 03:20:40 debian named[525]: using 1 UDP listener per interface
+Jan 21 03:20:40 debian named[525]: using up to 4096 sockets
+Jan 21 03:20:41 debian avahi-daemon[346]: Joining mDNS multicast group on interface enp0s8.IPv6 with address fe80::a00:27ff:feaa:3e33.
+Jan 21 03:20:41 debian avahi-daemon[346]: New relevant interface enp0s8.IPv6 for mDNS.
+Jan 21 03:20:41 debian avahi-daemon[346]: Registering new address record for fe80::a00:27ff:feaa:3e33 on enp0s8.*.
+Jan 21 03:20:41 debian named[525]: loading configuration from '/etc/bind/named.conf'
+Jan 21 03:20:41 debian named[525]: reading built-in trust anchors from file '/etc/bind/bind.keys'
+Jan 21 03:20:41 debian named[525]: initializing GeoIP Country (IPv4) (type 1) DB
+Jan 21 03:20:41 debian named[525]: GEO-106FREE 20181108 Build
+Jan 21 03:20:41 debian named[525]: initializing GeoIP Country (IPv6) (type 12) DB
+Jan 21 03:20:41 debian named[525]: GEO-106FREE 20181108 Build
+Jan 21 03:20:41 debian named[525]: GeoIP City (IPv4) (type 2) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP City (IPv4) (type 6) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP City (IPv6) (type 30) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP City (IPv6) (type 31) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP Region (type 3) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP Region (type 7) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP ISP (type 4) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP Org (type 5) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP AS (type 9) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP Domain (type 11) DB not available
+Jan 21 03:20:41 debian named[525]: GeoIP NetSpeed (type 10) DB not available
+Jan 21 03:20:41 debian systemd[1]: Started OpenBSD Secure Shell server.
+Jan 21 03:20:41 debian named[525]: using default UDP/IPv4 port range: [32768, 60999]
+Jan 21 03:20:41 debian named[525]: using default UDP/IPv6 port range: [32768, 60999]
+Jan 21 03:20:41 debian named[525]: listening on IPv6 interfaces, port 53
+Jan 21 03:20:41 debian named[525]: listening on IPv4 interface lo, 127.0.0.1#53
+Jan 21 03:20:41 debian named[525]: listening on IPv4 interface enp0s3, 10.0.2.15#53
+Jan 21 03:20:41 debian named[525]: listening on IPv4 interface enp0s8, 192.168.81.10#53
+Jan 21 03:20:41 debian named[525]: listening on IPv4 interface enp0s9, 192.168.82.10#53
+Jan 21 03:20:41 debian named[525]: generating session key for dynamic DNS
+Jan 21 03:20:41 debian named[525]: sizing zone task pool based on 6 zones
+Jan 21 03:20:41 debian named[525]: none:106: 'max-cache-size 90%' - setting to 888MB (out of 987MB)
+Jan 21 03:20:41 debian named[525]: obtaining root key for view _default from '/etc/bind/bind.keys'
+Jan 21 03:20:41 debian named[525]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 10.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: D.F.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 8.E.F.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 9.E.F.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: A.E.F.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: B.E.F.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: EMPTY.AS112.ARPA
+Jan 21 03:20:41 debian named[525]: automatic empty zone: HOME.ARPA
+Jan 21 03:20:41 debian named[525]: none:106: 'max-cache-size 90%' - setting to 888MB (out of 987MB)
+Jan 21 03:20:41 debian named[525]: configuring command channel from '/etc/bind/rndc.key'
+Jan 21 03:20:41 debian named[525]: command channel listening on 127.0.0.1#953
+Jan 21 03:20:41 debian named[525]: configuring command channel from '/etc/bind/rndc.key'
+Jan 21 03:20:41 debian named[525]: command channel listening on ::1#953
+Jan 21 03:20:41 debian named[525]: managed-keys-zone: journal file is out of date: removing journal file
+Jan 21 03:20:41 debian named[525]: managed-keys-zone: loaded serial 48
+Jan 21 03:20:42 debian named[525]: zone 0.in-addr.arpa/IN: loaded serial 1
+Jan 21 03:20:42 debian avahi-daemon[346]: Joining mDNS multicast group on interface enp0s9.IPv6 with address fe80::a00:27ff:fe33:7523.
+Jan 21 03:20:42 debian avahi-daemon[346]: New relevant interface enp0s9.IPv6 for mDNS.
+Jan 21 03:20:42 debian avahi-daemon[346]: Registering new address record for fe80::a00:27ff:fe33:7523 on enp0s9.*.
+Jan 21 03:20:42 debian named[525]: zone 127.in-addr.arpa/IN: loaded serial 1
+Jan 21 03:20:42 debian named[525]: zone 255.in-addr.arpa/IN: loaded serial 1
+Jan 21 03:20:42 debian named[525]: zone localhost/IN: loaded serial 2
+Jan 21 03:20:42 debian named[525]: zone ejemplo.com/IN: loaded serial 2
+Jan 21 03:20:42 debian named[525]: all zones loaded
+Jan 21 03:20:42 debian systemd[1]: Started BIND Domain Name Server.
+Jan 21 03:20:42 debian systemd[1]: Reached target Host and Network Name Lookups.
+Jan 21 03:20:42 debian named[525]: running
+Jan 21 03:20:42 debian named[525]: zone ejemplo.com/IN: sending notifies (serial 2)
+Jan 21 03:20:42 debian systemd[1]: Starting LSB: DHCP server...
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:2::c#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:a8::e#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:7fd::1#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:dc3::35#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:9f::42#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:200::b#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:1::53#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:2d::d#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:500:2f::f#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './NS/IN': 2001:7fe::53#53
+Jan 21 03:20:42 debian named[525]: network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+Jan 21 03:20:42 debian named[525]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+Jan 21 03:20:43 debian isc-dhcp-server[536]: Launching both IPv4 and IPv6 servers (please configure INTERFACES in /etc/default/isc-dhcp-server if you only want one or the other).
+Jan 21 03:20:43 debian named[525]: resolver priming query complete
+Jan 21 03:20:44 debian dhcpd[560]: Wrote 0 leases to leases file.
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: No subnet declaration for enp0s9 (192.168.82.10).
+Jan 21 03:20:44 debian dhcpd[560]: ** Ignoring requests on enp0s9.  If this is not what
+Jan 21 03:20:44 debian dhcpd[560]:    you want, please write a subnet declaration
+Jan 21 03:20:44 debian dhcpd[560]:    in your dhcpd.conf file for the network segment
+Jan 21 03:20:44 debian dhcpd[560]:    to which interface enp0s9 is attached. **
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: No subnet declaration for enp0s8 (192.168.81.10).
+Jan 21 03:20:44 debian dhcpd[560]: ** Ignoring requests on enp0s8.  If this is not what
+Jan 21 03:20:44 debian dhcpd[560]:    you want, please write a subnet declaration
+Jan 21 03:20:44 debian dhcpd[560]:    in your dhcpd.conf file for the network segment
+Jan 21 03:20:44 debian dhcpd[560]:    to which interface enp0s8 is attached. **
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: No subnet declaration for enp0s3 (10.0.2.15).
+Jan 21 03:20:44 debian dhcpd[560]: ** Ignoring requests on enp0s3.  If this is not what
+Jan 21 03:20:44 debian dhcpd[560]:    you want, please write a subnet declaration
+Jan 21 03:20:44 debian dhcpd[560]:    in your dhcpd.conf file for the network segment
+Jan 21 03:20:44 debian dhcpd[560]:    to which interface enp0s3 is attached. **
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: Not configured to listen on any interfaces!
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: If you think you have received this message due to a bug rather
+Jan 21 03:20:44 debian dhcpd[560]: than a configuration issue please read the section on submitting
+Jan 21 03:20:44 debian dhcpd[560]: bugs on either our web page at www.isc.org or in the README file
+Jan 21 03:20:44 debian dhcpd[560]: before submitting a bug.  These pages explain the proper
+Jan 21 03:20:44 debian dhcpd[560]: process and the information we find helpful for debugging.
+Jan 21 03:20:44 debian dhcpd[560]: 
+Jan 21 03:20:44 debian dhcpd[560]: exiting.
+Jan 21 03:20:46 debian isc-dhcp-server[536]: Starting ISC DHCPv4 server: dhcpdcheck syslog for diagnostics. ... failed!
+Jan 21 03:20:46 debian isc-dhcp-server[536]:  failed!
+Jan 21 03:20:46 debian systemd[1]: isc-dhcp-server.service: Control process exited, code=exited, status=1/FAILURE
+Jan 21 03:20:46 debian systemd[1]: isc-dhcp-server.service: Failed with result 'exit-code'.
+Jan 21 03:20:46 debian systemd[1]: Failed to start LSB: DHCP server.
+Jan 21 03:20:46 debian systemd[1]: Reached target Multi-User System.
+Jan 21 03:20:46 debian systemd[1]: Reached target Graphical Interface.
+Jan 21 03:20:46 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 21 03:20:46 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Jan 21 03:20:46 debian systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 21 03:20:48 debian systemd[1]: apt-daily.service: Succeeded.
+Jan 21 03:20:48 debian systemd[1]: Started Daily apt download activities.
+Jan 21 03:20:50 debian systemd[1]: man-db.service: Succeeded.
+Jan 21 03:20:50 debian systemd[1]: Started Daily man-db regeneration.
+Jan 21 03:20:50 debian systemd[1]: Startup finished in 8.099s (kernel) + 30.331s (userspace) = 38.430s.
+Jan 21 03:20:56 debian systemd-timesyncd[252]: Synchronized to time server for the first time 131.188.3.221:123 (2.debian.pool.ntp.org).
+Jan 21 03:20:56 debian systemd[1]: Created slice User Slice of UID 1000.
+Jan 21 03:20:56 debian systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jan 21 03:20:56 debian systemd[1]: Started User Runtime Directory /run/user/1000.
+Jan 21 03:20:56 debian systemd[1]: Starting User Manager for UID 1000...
+Jan 21 03:20:57 debian systemd[600]: Reached target Timers.
+Jan 21 03:20:57 debian systemd[600]: Starting D-Bus User Message Bus Socket.
+Jan 21 03:20:57 debian systemd[600]: Reached target Paths.
+Jan 21 03:20:57 debian systemd[600]: Listening on D-Bus User Message Bus Socket.
+Jan 21 03:20:57 debian systemd[600]: Reached target Sockets.
+Jan 21 03:20:57 debian systemd[600]: Reached target Basic System.
+Jan 21 03:20:57 debian systemd[1]: Started User Manager for UID 1000.
+Jan 21 03:20:57 debian systemd[1]: Started Session 1 of user usuario.
+Jan 21 03:20:57 debian systemd[600]: Reached target Default.
+Jan 21 03:20:57 debian systemd[600]: Startup finished in 111ms.
+Jan 21 03:21:15 debian systemd[1]: Started Session 3 of user usuario.
+Jan 21 03:35:28 debian systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 21 03:35:28 debian systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 21 03:35:28 debian systemd[1]: Started Cleanup of Temporary Directories.
+Jan 21 03:37:26 debian systemd[1]: Started Session 4 of user usuario.
+Jan 21 03:42:29 debian systemd[1]: Started Session 5 of user usuario.
+Jan 21 03:42:40 debian systemd[1]: session-4.scope: Succeeded.
+Jan 21 04:08:47 debian systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 2910 (git)
+Jan 21 04:08:47 debian systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Jan 21 04:08:47 debian systemd[1]: Mounted Arbitrary Executable File Formats File System.

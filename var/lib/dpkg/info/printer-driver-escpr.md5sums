@@ -1,0 +1,8 @@
+2e2d004ced09c53ac69c661194faecef  usr/lib/cups/driver/escpr
+82b400cbd6d676722eeac5e7ea18dec6  usr/lib/cups/filter/epson-escpr
+b315448f57f879346fd07c4fa8bfcf4e  usr/lib/cups/filter/epson-escpr-wrapper
+c5f0b7df98ffd43d4395786ee19ac9e6  usr/lib/printer-driver-escpr/libescpr.so.1.0.0
+ec63b53c57240e107c9dfd1e5a4dd3ab  usr/share/cups/ppd-updaters/printer-driver-escpr.ppd-updater
+58f5abdf911b36d9ed463ac2fa85b9e0  usr/share/doc/printer-driver-escpr/changelog.Debian.gz
+7bca8f313a1e4a868e02486a4e86c03f  usr/share/doc/printer-driver-escpr/changelog.gz
+daaf6ffa82f5e849a4247693990542ca  usr/share/doc/printer-driver-escpr/copyright

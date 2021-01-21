@@ -1,0 +1,17 @@
+# This is a transient unit file, created programmatically via the systemd API. Do not edit.
+[Scope]
+Slice=user-1000.slice
+
+[Unit]
+Description=Session 3 of user usuario
+Wants=user-runtime-dir@1000.service
+Wants=user@1000.service
+After=systemd-logind.service
+After=systemd-user-sessions.service
+After=user-runtime-dir@1000.service
+After=user@1000.service
+RequiresMountsFor=/home/usuario
+
+[Scope]
+SendSIGHUP=yes
+TasksMax=infinity

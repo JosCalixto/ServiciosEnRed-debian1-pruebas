@@ -1,0 +1,9 @@
+1cf740da8d64a498917272480ac49d6d  usr/bin/ijs_pxljr
+19392484b506053c3e9e9a1ab25f428d  usr/lib/cups/driver/pxljr
+384a6882328776022beb7ece0d3dd241  usr/share/cups/ppd-updaters/printer-driver-pxljr.ppd-updater
+1c5c72877279d9e5f5692295ec32e7f5  usr/share/doc/printer-driver-pxljr/FAQ
+9f620db387380209d86de87702372e51  usr/share/doc/printer-driver-pxljr/FAQ.html
+df28284937d913d88d4d92a3cccaff6b  usr/share/doc/printer-driver-pxljr/README.Debian
+25b19836f0f8c4b6b767bba7352f7fdc  usr/share/doc/printer-driver-pxljr/changelog.Debian.gz
+5df031baa519b4cc50330394ce0221df  usr/share/doc/printer-driver-pxljr/copyright
+93e8b8faa8c752e797a6158c77770c68  usr/share/doc/printer-driver-pxljr/gs-gamma.ps

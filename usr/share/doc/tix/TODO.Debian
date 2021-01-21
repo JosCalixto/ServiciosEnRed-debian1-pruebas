@@ -1,0 +1,18 @@
+Lintian issues a lot of complaints because the man macros file tix.tmac is
+not found; however during the build process, this macro file cannot be
+in the default place for man to search.
+
+A valid path can be found with that command:
+$ find . -type d -name tmac
+
+LC_ALL=en_US.UTF-8 MANROFFSEQ='' MANWIDTH=80 GROFF_TMAC_PATH=debian//tix/usr/share/groff/1.22.2/tmac man --warnings -E UTF-8 -l -Tutf8 -Z /tmp/compound.3 >/dev/null
+
+does not complain.
+
+LC_ALL=en_US.UTF-8 MANROFFSEQ='' MANWIDTH=80 GROFF_TMAC_PATH=$(find . -type d -name tmac) man --warnings -E UTF-8 -l -Tutf8 -Z /tmp/compound.3 >/dev/null
+
+neither complains.
+
+
+This file must be removed when the bug #734402 which i submitted will
+be cleared.

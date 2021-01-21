@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/12
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf 0.105-22\~ -- "$@"
+# End automatically added section

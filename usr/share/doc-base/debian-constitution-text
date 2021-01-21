@@ -1,0 +1,14 @@
+Document: debian-constitution-text
+Title: Debian Constitution
+Author: The Debian Project
+Abstract: This document contains the complete text of Debian Project
+ Constitution (v1.5), in text format. Version 1.5, ratified on
+ January 9th, 2015, supersedes Version 1.4, ratified on October 7th,
+ 2007, Version 1.3 ratified on September 24th, 2006, version 1.2
+ ratified on October 29th, 2003, Version 1.1 ratified on June 21st,
+ 2003, which itself supersedes Version 1.0 ratified on December 2nd,
+ 1998.
+Section: Debian
+
+Format: text
+Files: /usr/share/doc/debian/constitution.txt.gz

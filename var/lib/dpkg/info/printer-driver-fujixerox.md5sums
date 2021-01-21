@@ -1,0 +1,9 @@
+8ad233427f5545e807d495185d335137  usr/lib/cups/driver/fujixerox
+694d1f029354dbf44496b51dd0ea3591  usr/lib/cups/filter/pdftopdffx
+a5139206d83ae216301d9694be38b865  usr/lib/cups/filter/pdftopjlfx
+2fc23f4db1e8bb7cecb8b0bee98211a6  usr/lib/cups/filter/pstopdffx
+07661258fff2ac1844d27a517a166040  usr/share/cups/mime/mimefx.convs
+ac1b5081024d1f21884bbae5baebdd39  usr/share/cups/mime/mimefx.types
+174586bcfcd2ed38086e0350946c8e12  usr/share/doc/printer-driver-fujixerox/changelog.Debian.gz
+0c47ec02afa3f51eb96d5f28b881cedc  usr/share/doc/printer-driver-fujixerox/changelog.gz
+7bd0e2678b1d2360471ece8e538d6fbe  usr/share/doc/printer-driver-fujixerox/copyright

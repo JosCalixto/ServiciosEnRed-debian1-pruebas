@@ -1,0 +1,8 @@
+Log of fsck -C -a -T -t ext4 /dev/sda1 
+Thu Jan 21 08:20:14 2021
+
+/dev/sda1: recovering journal
+/dev/sda1: clean, 48403/458752 files, 489115/1834752 blocks
+
+Thu Jan 21 08:20:16 2021
+----------------
